@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+  {% include head.html %}
+
+  <body class="row-offcanvas row-offcanvas-left" ng-controller="AppController">
+
+  	<nav class="site-nav">
+	  <div class="sidebar-offcanvas" id="sidebar">
+	    {% for link in site.pages reversed %}
+	      {% if link.title %}
+		      {% unless link.category %}
+		        {% if link.url == page.url %}
+		          {% assign classes = 'page-link active' %}
+		        {% else %}
+		          {% assign classes = 'page-link' %}
+		        {% endif %}
+
+	        	<a class="{{ classes }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+		      {% endunless %}
+	      {% endif %}
+	    {% endfor %}
+	  </div>
+	</nav>
+
+  	<div class="site-content">
+	    {% include header.html %}
+
+	    <div class="page-content">
+	        {{ content }}
+	    </div>
+
+	    {% include footer.html %}
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,10 @@
+<li class="publication-class">
+	<span class="publication-title" id="{a{ publication.title }a}">{a{ publication.title }a}</span>
+	<span class="publication-year">({{ publication.year }})</span><br>
+	<span class="publication-authors" ng-bind-html="publication.authors | highlight:'Patrick Schwab'"></span><br>
+	<span class="publication-venue"><i>{{ publication.venue }}</i></span><br>
+	<a ng-if="publication.pdf" href="{{ publication.pdf }}">[pdf]</a>
+	<a ng-if="publication.bibtex" href="{{ publication.bibtex }}">[bibtex]</a>
+	<a ng-if="publication.poster" href="{{ publication.poster }}">[poster]</a>
+	<a ng-if="publication.code" href="{{ publication.code }}">[code]</a>
+</li>

@@ -1,0 +1,5 @@
+<li class="news-class">
+	<span class="news-title" id="{a{ news.title }a}">{a{ news.title }a}</span><br>
+	<a ng-if="news.link" href="{{ news.link }}">[Link]</a>
+	<span class="news-date">({{ news.date | date:'mediumDate' }})</span>
+</li>
