@@ -160,7 +160,7 @@ app.controller('AppController', function($scope){
         },
         {
             title: "Five Honorary Scholarships.",
-            venue: "Austrian Government's Honorary Scholarships.",
+            venue: "Funded by the Austrian Government",
             date: "2011 - 2015"
         }
     ]
