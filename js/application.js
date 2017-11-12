@@ -138,12 +138,14 @@ app.controller('AppController', function($scope){
         {
             title: "Battery-efficient Human Activity Recognition from Smartphone Sensor Data.",
             name: "Avik Mukhija, ETH Zurich",
-            level: "BSc, with Prof. Hiliges and Prof. Karlen"
+            level: "BSc, with Prof. Hiliges and Prof. Karlen",
+            date: "2017"
         },
         {
             title: "Unsupervised Discovery of Patterns in Human Mobility Behavior.",
             name: "Selin Olenik, Imperial College London",
-            level: "Intern, with Prof. Karlen"
+            level: "Intern, with Prof. Karlen",
+            date: "2017"
         }
     ];
 
