@@ -99,7 +99,7 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
-            title: "I will present our top-performing solution in the DREAM challenge on identifying digital biomarkers from smartphone sensors for Parkinson's disease at the RECOMB/ISCB Conference on Regulatory and Systems Genomics in New York, USA.",
+            title: "I will present our 2nd place solution in the DREAM challenge on identifying digital biomarkers from smartphone sensors for Parkinson's disease at the RECOMB/ISCB Conference on Regulatory and Systems Genomics in New York, USA.",
             link: "https://www.iscb.org/recomb-regsysgen2017-program/recomb-regsysgen2017-agendas",
             date: "2017-11-21"
         },
