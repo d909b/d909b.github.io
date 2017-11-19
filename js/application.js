@@ -144,7 +144,7 @@ app.controller('AppController', function($scope){
         {
             title: "Unsupervised Discovery of Patterns in Human Mobility Behavior.",
             name: "Selin Olenik, Imperial College London",
-            level: "Intern, with Prof. Karlen",
+            level: "Amgen Scholar, with Prof. Karlen",
             date: "2017"
         }
     ];
