@@ -151,6 +151,11 @@ app.controller('AppController', function($scope){
 
     $scope.awards = [
         {
+            title: "2nd Place Parkinson’s Disease Digital Biomarker Challenge.",
+            venue: "DREAM Challenges",
+            date: "2017"
+        },
+        {
             title: "Best of the Best Award.",
             venue: "Faculty of Computer Science, University of Vienna, Austria",
             date: "2016"
