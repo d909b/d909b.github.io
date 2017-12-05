@@ -1,0 +1,6 @@
+<li class="media-class">
+	<span class="media-title" id="{a{ media.title }a}">{a{ media.title }a}</span>
+	<span class="media-date">({{ media.date }})</span><br>
+	<span class="media-venue" ng-bind-html="media.venue"></span><br>
+	<a ng-if="media.link" href="{{ media.link }}">[link]</a>
+</li>

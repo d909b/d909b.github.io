@@ -28,6 +28,13 @@ angular.module('components', [])
                       templateUrl: "/ng-templates/award.html"
                     };
                   })
+       .directive('media',
+                  function() {
+                    return {
+                      restrict: 'E',
+                      templateUrl: "/ng-templates/media.html"
+                    };
+                  })
        .config(function($interpolateProvider){
     		$interpolateProvider.startSymbol('{a{').endSymbol('}a}');
 		});
@@ -170,6 +177,21 @@ app.controller('AppController', function($scope){
             venue: "Funded by the Austrian Government",
             date: "2011 - 2015"
         }
+    ];
+
+    $scope.media_coverage = [
+        {
+            title: "Digital Has Got Your Back.",
+            venue: "Neue Zürcher Zeitung (NZZ)",
+            date: "Dec, 2017",
+            link: "https://bytebucket.org/d909b/scientific-artifacts/raw/219f67c6c5fb9b8c93d628bd5d6632b4261c004e/nzz_4.12.2017.JPG"
+        },
+        {
+            title: "Scientifica 2017: Playfully Fighting Low Back Pain.",
+            venue: "ETH Zurich News",
+            date: "Aug, 2017",
+            link: "https://www.youtube.com/watch?v=N1Pk3586M0E"
+        },
     ]
 });
 
