@@ -66,7 +66,7 @@ app.controller('AppController', function($scope){
             year: "2017",
             venue: "Proceedings of Computing in Cardiology, 2017",
             pdf: "https://arxiv.org/pdf/1710.06319.pdf",
-            code: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/cinc-code-and-models.zip",
+            code: "https://github.com/d909b/heart_rhythm_attentive_rnn",
             bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=169107&handle=20.500.11850/170134",
             image: "img/cinc17.png"
         },
