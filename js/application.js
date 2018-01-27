@@ -144,7 +144,7 @@ app.controller('AppController', function($scope){
     $scope.supervision = [
         {
             title: "Intelligent Decision-Support for Diagnosis and Monitoring of Parkinson’s Disease.",
-            name: "Matas Potevicius, ETH Zurich",
+            name: "Matas Pocevicius, ETH Zurich",
             level: "MSc, with Prof. Karlen",
             date: "2018"
         },
