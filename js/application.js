@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Granger-causal Attentive Mixtures of Experts.",
+            authors: "Patrick Schwab and Walter Karlen",
+            year: "2018",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/1802.02195.pdf",
+            code: "https://github.com/d909b/attentive_mixtures_of_experts",
+            bibtex: "https://arxiv.org/abs/1802.02195",
+            image: ""
+        },
+        {
             title: "Beat by Beat: Classifying Cardiac Arrhythmias with Recurrent Neural Networks.",
             authors: "Patrick Schwab, Gaetano Claudio Scebba, Jia Zhang, Marco Delai and Walter Karlen",
             year: "2017",
@@ -105,6 +115,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "We released our most recent work on providing measurably accurate feature importance scores for neural networks - enabling some exciting use cases in knowledge discovery and biomedical applications.",
+            link: "http://arxiv.org/abs/1802.02195",
+            date: "2018-02-08"
+        },
         {
             title: "I presented our 2nd place solution in the DREAM challenge on identifying digital biomarkers from smartphone sensors for Parkinson's disease at the RECOMB/ISCB Conference on Regulatory and Systems Genomics in New York, USA.",
             link: "https://www.iscb.org/recomb-regsysgen2017-program/recomb-regsysgen2017-agendas",
