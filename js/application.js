@@ -67,7 +67,7 @@ app.controller('AppController', function($scope){
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
             code: "https://github.com/d909b/attentive_mixtures_of_experts",
-            bibtex: "https://arxiv.org/abs/1802.02195",
+            bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:JD_7mVW7VToJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWoQTg8xwg8SyfrV40W9MaDhiKUVWvZKr&scisf=4&ct=citation&cd=-1",
             image: ""
         },
         {
@@ -178,6 +178,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.awards = [
+        {
+            title: "GPU Grant.",
+            venue: "Nvidia Corporation",
+            date: "2018"
+        },
         {
             title: "2nd Place Parkinson’s Disease Digital Biomarker Challenge.",
             venue: "DREAM Challenges",
