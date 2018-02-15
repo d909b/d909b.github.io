@@ -61,13 +61,23 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
+            authors: "Patrick Schwab, Emanuela Keller, Carl Muroi, David J. Mack, Christian Strässle and Walter Karlen",
+            year: "2018",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/1802.05027.pdf",
+            code: "https://github.com/d909b/DSMT-Nets",
+            bibtex: "http://arxiv.org/abs/1802.05027",
+            image: ""
+        },
+        {
             title: "Granger-causal Attentive Mixtures of Experts.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2018",
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
             code: "https://github.com/d909b/attentive_mixtures_of_experts",
-            bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:JD_7mVW7VToJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWoQTg8xwg8SyfrV40W9MaDhiKUVWvZKr&scisf=4&ct=citation&cd=-1",
+            bibtex: "http://arxiv.org/abs/1802.02195",
             image: ""
         },
         {
@@ -116,7 +126,12 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
-            title: "We released our most recent work on providing measurably accurate feature importance scores for neural networks - enabling some exciting use cases in knowledge discovery and biomedical applications.",
+            title: "We released our recent work on reducing the high false alarm rate in critical care using all available biosignal monitors and small amounts of labelled data.",
+            link: "http://arxiv.org/abs/1802.05027",
+            date: "2018-02-15"
+        },
+        {
+            title: "We released our recent work on providing measurably accurate feature importance scores for neural networks - enabling some exciting use cases in knowledge discovery and biomedical applications.",
             link: "http://arxiv.org/abs/1802.02195",
             date: "2018-02-08"
         },
