@@ -126,6 +126,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented the results of our work on smarter biosignal monitoring at IBM Research Zurich, Switzerland.",
+            link: "http://www.nfp75.ch/de/Events/Seiten/170122_nfp75_events_ICU.aspx",
+            date: "2018-03-09"
+        },
+        {
             title: "We released our recent work on reducing the high false alarm rate in critical care using all available biosignal monitors and small amounts of labelled data.",
             link: "http://arxiv.org/abs/1802.05027",
             date: "2018-02-15"
