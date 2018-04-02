@@ -81,6 +81,16 @@ app.controller('AppController', function($scope){
             image: ""
         },
         {
+            title: "Automated Extraction of Digital Biomarkers for Parkinson’s Disease.",
+            authors: "Patrick Schwab, Mohammad A.K. Moghaddam and Walter Karlen",
+            year: "2017",
+            venue: "RECOMB/ISCB Conference on Regulatory and Systems Genomics with DREAM CHALLENGES",
+            pdf: "",
+            code: "https://github.com/d909b/eth_dream_pd_subchallenge1",
+            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=228322&handle=20.500.11850/224487",
+            image: ""
+        },
+        {
             title: "Beat by Beat: Classifying Cardiac Arrhythmias with Recurrent Neural Networks.",
             authors: "Patrick Schwab, Gaetano Claudio Scebba, Jia Zhang, Marco Delai and Walter Karlen",
             year: "2017",
