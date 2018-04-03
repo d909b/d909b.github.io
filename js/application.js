@@ -85,7 +85,7 @@ app.controller('AppController', function($scope){
             authors: "Patrick Schwab, Mohammad A.K. Moghaddam and Walter Karlen",
             year: "2017",
             venue: "RECOMB/ISCB Conference on Regulatory and Systems Genomics with DREAM CHALLENGES",
-            pdf: "",
+            pdf: "https://www.researchgate.net/profile/Patrick_Schwab3/publication/324170800_Automated_Extraction_of_Digital_Biomarkers_for_Parkinson's_Disease/links/5ac3866e0f7e9bfc0460a3ff/Automated-Extraction-of-Digital-Biomarkers-for-Parkinsons-Disease.pdf?_sg%5B0%5D=4zzpC_PSm3nKP0vFgJoeHtQ0-Zh0MQHg2_bha-59KuZ8Q38ZKVnRsmGxNJ1sk1MLS_jW3NB6UTTVowNCnGwD2g.0rsOEE7ccdx93Vo0V4ivTnzfw14dIrrzBguuxnRmbdamQtGRNlg5bMZ6mkykaNNPPu0QACCxFKKjaUOOVQFQBg&_sg%5B1%5D=vW_k9AO76zfoVdcTRRcn7TsTl_aftkj5PEt23x5H9HIJGM43orN94tn4Zw0Ia5UpJGpr9PQ-6z8s3gQSHVbwtEJyqDs1LzmiYHeAEsnkg1ll.0rsOEE7ccdx93Vo0V4ivTnzfw14dIrrzBguuxnRmbdamQtGRNlg5bMZ6mkykaNNPPu0QACCxFKKjaUOOVQFQBg&_iepl=",
             code: "https://github.com/d909b/eth_dream_pd_subchallenge1",
             bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=228322&handle=20.500.11850/224487",
             image: ""
