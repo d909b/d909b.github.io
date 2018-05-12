@@ -64,7 +64,7 @@ app.controller('AppController', function($scope){
             title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
             authors: "Patrick Schwab, Emanuela Keller, Carl Muroi, David J. Mack, Christian Strässle and Walter Karlen",
             year: "2018",
-            venue: "arXiv preprint",
+            venue: "International Conference on Machine Learning (ICML)",
             pdf: "https://arxiv.org/pdf/1802.05027.pdf",
             code: "https://github.com/d909b/DSMT-Nets",
             bibtex: "http://arxiv.org/abs/1802.05027",
@@ -135,6 +135,10 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our paper on reducing the false alarm rate in critical care with distant supervision was accepted to ICML 2018.",
+            date: "2018-05-11"
+        },
         {
             title: "I presented the results of our work on smarter biosignal monitoring at IBM Research Zurich, Switzerland.",
             link: "http://www.nfp75.ch/de/Events/Seiten/170122_nfp75_events_ICU.aspx",
