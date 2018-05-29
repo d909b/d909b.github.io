@@ -71,8 +71,8 @@ app.controller('AppController', function($scope){
             image: ""
         },
         {
-            title: "Granger-causal Attentive Mixtures of Experts.",
-            authors: "Patrick Schwab and Walter Karlen",
+            title: "Granger-causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks.",
+            authors: "Patrick Schwab, Djordje Miladinovic and Walter Karlen",
             year: "2018",
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
@@ -136,8 +136,18 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "We released a revised version of our paper on attentive mixtures of experts on arXiv - now with more experimental data that shows strong results compared to several state-of-the-art baselines.",
+            date: "2018-05-29",
+            link: "http://arxiv.org/abs/1802.05027"
+        },
+        {
             title: "Our paper on reducing the false alarm rate in critical care with distant supervision was accepted to ICML 2018.",
             date: "2018-05-11"
+        },
+        {
+            title: "The ETH Entrepreneur Club honored my student Matas Pocevicius with an award for his thesis project - congrats!",
+            date: "2018-05-11",
+            link: "https://award.entrepreneur-club.org/"
         },
         {
             title: "I presented the results of our work on smarter biosignal monitoring at IBM Research Zurich, Switzerland.",
@@ -191,6 +201,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.supervision = [
+        {
+            title: "Learning Counterfactual Representations for Ventilation in Critical Care.",
+            name: "Matas Pocevicius, ETH Zurich",
+            level: "MSc, with Prof. Buhmann and Prof. Karlen",
+            date: "2018"
+        },
         {
             title: "Intelligent Decision-Support for Diagnosis and Monitoring of Parkinson’s Disease.",
             name: "Matas Pocevicius, ETH Zurich",
