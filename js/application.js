@@ -203,7 +203,7 @@ app.controller('AppController', function($scope){
     $scope.supervision = [
         {
             title: "Learning Counterfactual Representations for Ventilation in Critical Care.",
-            name: "Matas Pocevicius, ETH Zurich",
+            name: "Lorenz Linhardt, ETH Zurich",
             level: "MSc, with Prof. Buhmann and Prof. Karlen",
             date: "2018"
         },
