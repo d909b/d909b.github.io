@@ -61,16 +61,6 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
-            title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
-            authors: "Patrick Schwab, Emanuela Keller, Carl Muroi, David J. Mack, Christian Strässle and Walter Karlen",
-            year: "2018",
-            venue: "International Conference on Machine Learning (ICML)",
-            pdf: "https://arxiv.org/pdf/1802.05027.pdf",
-            code: "https://github.com/d909b/DSMT-Nets",
-            bibtex: "http://arxiv.org/abs/1802.05027",
-            image: ""
-        },
-        {
             title: "Granger-causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks.",
             authors: "Patrick Schwab, Djordje Miladinovic and Walter Karlen",
             year: "2018",
@@ -78,6 +68,16 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
             code: "https://github.com/d909b/attentive_mixtures_of_experts",
             bibtex: "http://arxiv.org/abs/1802.02195",
+            image: ""
+        },
+        {
+            title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
+            authors: "Patrick Schwab, Emanuela Keller, Carl Muroi, David J. Mack, Christian Strässle and Walter Karlen",
+            year: "2018",
+            venue: "International Conference on Machine Learning (ICML)",
+            pdf: "https://arxiv.org/pdf/1802.05027.pdf",
+            code: "https://github.com/d909b/DSMT-Nets",
+            bibtex: "http://arxiv.org/abs/1802.05027",
             image: ""
         },
         {
@@ -136,12 +136,18 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I represented the European Sleep Research Society (ESRS) at the International Workshop on Wearables in Sleep and Circadian Science in Baltimore, US.",
+            date: "2018-06-02",
+            link: "http://sleeploop.ch"
+        },
+        {
             title: "We released a revised version of our paper on attentive mixtures of experts on arXiv - now with more experimental data that shows strong results compared to several state-of-the-art baselines.",
             date: "2018-05-29",
             link: "http://arxiv.org/abs/1802.05027"
         },
         {
             title: "Our paper on reducing the false alarm rate in critical care with distant supervision was accepted to ICML 2018.",
+            link: "http://arxiv.org/abs/1802.05027",
             date: "2018-05-11"
         },
         {
@@ -160,7 +166,7 @@ app.controller('AppController', function($scope){
             date: "2018-02-15"
         },
         {
-            title: "We released our recent work on providing measurably accurate feature importance scores for neural networks - enabling some exciting use cases in knowledge discovery and biomedical applications.",
+            title: "We released our recent work on providing measurably accurate feature importance scores for neural networks - enabling exciting use cases in knowledge discovery and biomedical applications.",
             link: "http://arxiv.org/abs/1802.02195",
             date: "2018-02-08"
         },
