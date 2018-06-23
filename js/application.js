@@ -143,7 +143,7 @@ app.controller('AppController', function($scope){
         {
             title: "We released a revised version of our paper on attentive mixtures of experts on arXiv - now with more experimental data that shows strong results compared to several state-of-the-art baselines.",
             date: "2018-05-29",
-            link: "http://arxiv.org/abs/1802.05027"
+            link: "http://arxiv.org/abs/1802.02195"
         },
         {
             title: "Our paper on reducing the false alarm rate in critical care with distant supervision was accepted to ICML 2018.",
