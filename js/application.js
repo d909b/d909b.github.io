@@ -137,7 +137,7 @@ app.controller('AppController', function($scope){
     $scope.news = [
         {
             title: "I presented our work on semi-supervised learning with distant supervision through multiple auxiliary tasks at the International Conference of Machine Learning (ICML) in Stockholm, Sweden.",
-            date: "2018-07-11",
+            date: "2018-07-12",
             link: "https://icml.cc/Conferences/2018/Schedule?day=2"
         },
         {
