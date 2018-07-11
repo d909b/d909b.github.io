@@ -136,6 +136,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented our work on semi-supervised learning with distant supervision through multiple auxiliary tasks at the International Conference of Machine Learning (ICML) in Stockholm, Sweden.",
+            date: "2018-07-11",
+            link: "https://icml.cc/Conferences/2018/Schedule?day=2"
+        },
+        {
             title: "I represented the European Sleep Research Society (ESRS) at the International Workshop on Wearables in Sleep and Circadian Science in Baltimore, US.",
             date: "2018-06-02",
             link: "http://sleeploop.ch"
