@@ -136,6 +136,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented our work on reducing false alarms in critical care with deep learning at Philips Medical Systems in Böblingen, Germany.",
+            date: "2018-07-19"
+        },
+        {
             title: "I presented our work on semi-supervised learning with distant supervision through multiple auxiliary tasks at the International Conference of Machine Learning (ICML) in Stockholm, Sweden.",
             date: "2018-07-12",
             link: "https://icml.cc/Conferences/2018/Schedule?day=2"
