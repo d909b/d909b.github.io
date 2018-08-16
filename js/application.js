@@ -77,6 +77,7 @@ app.controller('AppController', function($scope){
             venue: "International Conference on Machine Learning (ICML)",
             pdf: "https://arxiv.org/pdf/1802.05027.pdf",
             code: "https://github.com/d909b/DSMT-Nets",
+            poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/22b381c3fd3bd0d668f3488b343ef72d574005df/ICML18-poster.pdf",
             bibtex: "http://arxiv.org/abs/1802.05027",
             image: ""
         },
