@@ -137,6 +137,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I gave a talk on reducing false alarms in critical care and diagnosing diseases with smartphone sensors at the annual meeting of the Swiss Society for Critical Care in Interlaken, Switzerland.",
+            date: "2018-09-19"
+        },
+        {
             title: "I presented our work on reducing false alarms in critical care with deep learning at Philips Medical Systems in Böblingen, Germany.",
             date: "2018-07-19"
         },
