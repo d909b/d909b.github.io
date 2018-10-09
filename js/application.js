@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "PhoneMD: Learning to Diagnose Parkinson's Disease from Smartphone Data.",
+            authors: "Patrick Schwab and Walter Karlen",
+            year: "2018",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/1810.01485.pdf",
+            code: "",
+            bibtex: "https://arxiv.org/abs/1810.01485",
+            image: ""
+        },
+        {
             title: "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks.",
             authors: "Patrick Schwab, Lorenz Linhardt and Walter Karlen",
             year: "2018",
