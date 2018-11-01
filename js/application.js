@@ -66,7 +66,7 @@ app.controller('AppController', function($scope){
             year: "2018",
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1810.01485.pdf",
-            code: "https://github.com/d909b/perfect_match",
+            code: "",
             bibtex: "https://arxiv.org/abs/1810.01485",
             image: ""
         },
@@ -76,7 +76,7 @@ app.controller('AppController', function($scope){
             year: "2018",
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1810.00656.pdf",
-            code: "",
+            code: "https://github.com/d909b/perfect_match",
             bibtex: "https://arxiv.org/abs/1810.00656",
             image: ""
         },
