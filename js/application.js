@@ -63,12 +63,24 @@ app.controller('AppController', function($scope){
         {
             title: "PhoneMD: Learning to Diagnose Parkinson's Disease from Smartphone Data.",
             authors: "Patrick Schwab and Walter Karlen",
-            year: "2018",
-            venue: "arXiv preprint",
+            year: "2019",
+            venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1810.01485.pdf",
             code: "",
             bibtex: "https://arxiv.org/abs/1810.01485",
-            image: ""
+            image: "",
+            notable: "Acceptance rate: 16.2%"
+        },
+        {
+            title: "Granger-causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks.",
+            authors: "Patrick Schwab, Djordje Miladinovic and Walter Karlen",
+            year: "2019",
+            venue: "AAAI Conference on Artificial Intelligence",
+            pdf: "https://arxiv.org/pdf/1802.02195.pdf",
+            code: "https://github.com/d909b/attentive_mixtures_of_experts",
+            bibtex: "http://arxiv.org/abs/1802.02195",
+            image: "",
+            notable: "Acceptance rate: 16.2%"
         },
         {
             title: "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks.",
@@ -81,16 +93,6 @@ app.controller('AppController', function($scope){
             image: ""
         },
         {
-            title: "Granger-causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks.",
-            authors: "Patrick Schwab, Djordje Miladinovic and Walter Karlen",
-            year: "2018",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/pdf/1802.02195.pdf",
-            code: "https://github.com/d909b/attentive_mixtures_of_experts",
-            bibtex: "http://arxiv.org/abs/1802.02195",
-            image: ""
-        },
-        {
             title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
             authors: "Patrick Schwab, Emanuela Keller, Carl Muroi, David J. Mack, Christian Strässle and Walter Karlen",
             year: "2018",
@@ -99,7 +101,8 @@ app.controller('AppController', function($scope){
             code: "https://github.com/d909b/DSMT-Nets",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/22b381c3fd3bd0d668f3488b343ef72d574005df/ICML18-poster.pdf",
             bibtex: "http://arxiv.org/abs/1802.05027",
-            image: ""
+            image: "",
+            notable: "Acceptance rate: 25.1%"
         },
         {
             title: "Automated Extraction of Digital Biomarkers for Parkinson’s Disease.",
