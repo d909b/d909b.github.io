@@ -160,6 +160,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Two papers accepted for publication at AAAI 2019.",
+            date: "2018-11-01"
+        },
+        {
             title: "I presented our work on distantly supervised multitask learning at the Machine Learning Lunch Seminar in Zurich, Switzerland.",
             date: "2018-10-02"
         },
