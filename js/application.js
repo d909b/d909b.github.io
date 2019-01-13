@@ -160,6 +160,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I am now an affiliate fellow of the Max Planck ETH Center for Learning Systems.",
+            date: "2019-01-01",
+            link: "https://learning-systems.org/"
+        },
+        {
             title: "Two papers accepted for publication at AAAI 2019.",
             date: "2018-11-01"
         },
