@@ -160,7 +160,12 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
-            title: "I am now an affiliate fellow of the Max Planck ETH Center for Learning Systems.",
+            title: "Our research on reducing false alarms in critical care was featured by ETH News.",
+            date: "2019-01-23",
+            link: "https://www.ethz.ch/en/news-and-events/eth-news/news/2019/01/fewer-false-alarms-in-intensive-care.html"
+        },
+        {
+            title: "I joined the Max Planck ETH Center for Learning Systems as an affiliate fellow.",
             date: "2019-01-01",
             link: "https://learning-systems.org/"
         },
@@ -313,6 +318,30 @@ app.controller('AppController', function($scope){
 
     $scope.media_coverage = [
         {
+            title: "Fewer False Alarms in Intensive Care.",
+            venue: "ETH News",
+            date: "Jan, 2019",
+            link: "https://www.ethz.ch/en/news-and-events/eth-news/news/2019/01/fewer-false-alarms-in-intensive-care.html"
+        },
+        {
+            title: "Une Application Smartphone pour Détecter la Maladie de Parkinson.",
+            venue: "Les Clés de Demain - Le Monde",
+            date: "Jan, 2019",
+            link: "https://lesclesdedemain.lemonde.fr/technologie/une-application-smartphone-pour-detecter-la-maladie-de-parkinson_a-88-6910.html"
+        },
+        {
+            title: "Your Smartphone Data And Some AI Smarts Could Diagnose Parkinson’s Disease.",
+            venue: "News18",
+            date: "Oct, 2018",
+            link: "https://www.news18.com/news/tech/your-smartphone-data-and-some-ai-smarts-could-diagnose-parkinsons-disease-1899059.html"
+        },
+        {
+            title: "Researchers use smartphone app to aid Parkinson's Disease diagnoses.",
+            venue: "CNET",
+            date: "Oct, 2018",
+            link: "https://www.cnet.com/news/researchers-use-smartphone-app-to-aid-parkinsons-disease-diagnoses/"
+        },
+        {
             title: "Digital Has Got Your Back.",
             venue: "Neue Zürcher Zeitung (NZZ)",
             date: "Dec, 2017",
@@ -323,7 +352,7 @@ app.controller('AppController', function($scope){
             venue: "ETH Zurich News",
             date: "Aug, 2017",
             link: "https://www.youtube.com/watch?v=N1Pk3586M0E"
-        },
+        }
     ]
 });
 
