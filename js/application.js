@@ -349,7 +349,7 @@ app.controller('AppController', function($scope){
         },
         {
             title: "Scientifica 2017: Playfully Fighting Low Back Pain.",
-            venue: "ETH Zurich News",
+            venue: "ETH News",
             date: "Aug, 2017",
             link: "https://www.youtube.com/watch?v=N1Pk3586M0E"
         }
