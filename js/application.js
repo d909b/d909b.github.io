@@ -326,7 +326,7 @@ app.controller('AppController', function($scope){
         {
             title: "Une Application Smartphone pour Détecter la Maladie de Parkinson.",
             venue: "Les Clés de Demain - Le Monde",
-            date: "Jan, 2019",
+            date: "Oct, 2018",
             link: "https://lesclesdedemain.lemonde.fr/technologie/une-application-smartphone-pour-detecter-la-maladie-de-parkinson_a-88-6910.html"
         },
         {
