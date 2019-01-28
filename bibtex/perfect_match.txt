@@ -1,0 +1,6 @@
+@article{schwab2018perfect,
+  title={{Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks}},
+  author={Schwab, Patrick and Linhardt, Lorenz and Karlen, Walter},
+  journal={arXiv preprint arXiv:1810.00656},
+  year={2018}
+}

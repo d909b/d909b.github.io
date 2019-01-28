@@ -1,0 +1,6 @@
+@inproceedings{schwab2019phonemd,
+  title={{PhoneMD: Learning to Diagnose Parkinson's Disease from Smartphone Data}},
+  author={Schwab, Patrick and Karlen, Walter},
+  booktitle={{AAAI Conference on Artificial Intelligence}},
+  year={2019}
+}

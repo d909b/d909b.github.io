@@ -1,0 +1,6 @@
+@inproceedings{schwab2019ame,
+  title={{Granger-causal Attentive Mixtures of Experts: Learning Important Features With Neural Networks}},
+  author={Schwab, Patrick and Djordje Miladinovic and Karlen, Walter},
+  booktitle={{AAAI Conference on Artificial Intelligence}},
+  year={2019}
+}
