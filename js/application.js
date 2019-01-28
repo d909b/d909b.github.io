@@ -67,7 +67,7 @@ app.controller('AppController', function($scope){
             venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1810.01485.pdf",
             code: "",
-            bibtex: "https://arxiv.org/abs/1810.01485",
+            bibtex: "http://schwabpatrick.com/bibtex/phonemd.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
         },
@@ -77,8 +77,8 @@ app.controller('AppController', function($scope){
             year: "2019",
             venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
-            code: "https://github.com/d909b/attentive_mixtures_of_experts",
-            bibtex: "http://arxiv.org/abs/1802.02195",
+            code: "https://github.com/d909b/ame",
+            bibtex: "http://schwabpatrick.com/bibtex/ame.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
         },
@@ -89,7 +89,7 @@ app.controller('AppController', function($scope){
             venue: "arXiv preprint",
             pdf: "https://arxiv.org/pdf/1810.00656.pdf",
             code: "https://github.com/d909b/perfect_match",
-            bibtex: "https://arxiv.org/abs/1810.00656",
+            bibtex: "http://schwabpatrick.com/bibtex/perfect_match.txt",
             image: ""
         },
         {
@@ -100,7 +100,7 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/pdf/1802.05027.pdf",
             code: "https://github.com/d909b/DSMT-Nets",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/22b381c3fd3bd0d668f3488b343ef72d574005df/ICML18-poster.pdf",
-            bibtex: "http://arxiv.org/abs/1802.05027",
+            bibtex: "http://schwabpatrick.com/bibtex/nottocry.txt",
             image: "",
             notable: "Acceptance rate: 25.1%"
         },
@@ -111,7 +111,7 @@ app.controller('AppController', function($scope){
             venue: "RECOMB/ISCB Conference on Regulatory and Systems Genomics with DREAM CHALLENGES",
             pdf: "https://www.researchgate.net/profile/Patrick_Schwab3/publication/324170800_Automated_Extraction_of_Digital_Biomarkers_for_Parkinson's_Disease/links/5ac3866e0f7e9bfc0460a3ff/Automated-Extraction-of-Digital-Biomarkers-for-Parkinsons-Disease.pdf?_sg%5B0%5D=4zzpC_PSm3nKP0vFgJoeHtQ0-Zh0MQHg2_bha-59KuZ8Q38ZKVnRsmGxNJ1sk1MLS_jW3NB6UTTVowNCnGwD2g.0rsOEE7ccdx93Vo0V4ivTnzfw14dIrrzBguuxnRmbdamQtGRNlg5bMZ6mkykaNNPPu0QACCxFKKjaUOOVQFQBg&_sg%5B1%5D=vW_k9AO76zfoVdcTRRcn7TsTl_aftkj5PEt23x5H9HIJGM43orN94tn4Zw0Ia5UpJGpr9PQ-6z8s3gQSHVbwtEJyqDs1LzmiYHeAEsnkg1ll.0rsOEE7ccdx93Vo0V4ivTnzfw14dIrrzBguuxnRmbdamQtGRNlg5bMZ6mkykaNNPPu0QACCxFKKjaUOOVQFQBg&_iepl=",
             code: "https://github.com/d909b/eth_dream_pd_subchallenge1",
-            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=228322&handle=20.500.11850/224487",
+            bibtex: "http://schwabpatrick.com/bibtex/pd_challenge.txt",
             image: ""
         },
         {
@@ -121,7 +121,7 @@ app.controller('AppController', function($scope){
             venue: "Proceedings of Computing in Cardiology, 2017",
             pdf: "https://arxiv.org/pdf/1710.06319.pdf",
             code: "https://github.com/d909b/heart_rhythm_attentive_rnn",
-            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=169107&handle=20.500.11850/170134",
+            bibtex: "http://schwabpatrick.com/bibtex/beatbybeat.txt",
             image: "img/cinc17.png"
         },
         {
