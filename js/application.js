@@ -102,6 +102,7 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/pdf/1802.05027.pdf",
             code: "https://github.com/d909b/DSMT-Nets",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/22b381c3fd3bd0d668f3488b343ef72d574005df/ICML18-poster.pdf",
+            presentation: "http://schwabpatrick.com/presentations/ICML18-dsmtnet-presentation.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/nottocry.txt",
             image: "",
             notable: "Acceptance rate: 25.1%"
@@ -120,9 +121,10 @@ app.controller('AppController', function($scope){
             title: "Beat by Beat: Classifying Cardiac Arrhythmias with Recurrent Neural Networks.",
             authors: "Patrick Schwab, Gaetano Claudio Scebba, Jia Zhang, Marco Delai and Walter Karlen",
             year: "2017",
-            venue: "Proceedings of Computing in Cardiology, 2017",
+            venue: "Computing in Cardiology",
             pdf: "https://arxiv.org/pdf/1710.06319.pdf",
             code: "https://github.com/d909b/heart_rhythm_attentive_rnn",
+            presentation: "http://schwabpatrick.com/presentations/CinC17-BeatByBeat-presentation.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/beatbybeat.txt",
             image: "img/cinc17.png"
         },
@@ -130,7 +132,7 @@ app.controller('AppController', function($scope){
             title: "Capturing the Essence: Towards the Automated Generation of Transparent Behavior Models.",
             authors: "Patrick Schwab and Helmut Hlavacs",
             year: "2015",
-            venue: "Proceedings of The Eleventh AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, 184-190, S.I.: AAAI, 2015.",
+            venue: "AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
             pdf: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/aiide2015.pdf",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/81b4ad5fca44928163b4b01ff5eeae6eef2ddc13/aiide2015-poster.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/capturing_the_essence.txt",
@@ -140,7 +142,7 @@ app.controller('AppController', function($scope){
             title: "PALAIS: A 3D Simulation Environment for Artificial Intelligence in Games.",
             authors: "Patrick Schwab and Helmut Hlavacs",
             year: "2015",
-            venue: "Proceedings of the AISB 2015 Symposium on AI and Games, 18-21, Canterbury: AISB, 2015.",
+            venue: "AISB 2015 Symposium on AI and Games",
             pdf: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/AISB2015.pdf",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/81b4ad5fca44928163b4b01ff5eeae6eef2ddc13/AISB2015-poster.pdf",
             code: "https://github.com/palais-ai/",
@@ -264,6 +266,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.supervision = [
+        {
+            title: "Predictive Power of Respiratory Rate for Cardiac Arrythmias.",
+            name: "Georgia Channing, University of Southern California",
+            level: "BSc, with Prof. Karlen",
+            date: "2019"
+        },
         {
             title: "Learning Counterfactual Representations for Ventilation in Critical Care.",
             name: "Lorenz Linhardt, ETH Zurich",
