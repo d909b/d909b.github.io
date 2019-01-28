@@ -1,0 +1,16 @@
+@INPROCEEDINGS{20.500.11850/170143.3,
+	editor = {Larson, Martha and Ionescu, Bogdan and Anguera, Xavier and Eskevich, Maria and Korshunov, Pavel and Schedl, Markus and Soleymani, Mohammad and Petkos, Georgios and Sutcliffe, Richard and Choi, Jaeyoung and Jones, Gareth J.F.},
+	series = {CEUR Workshop Proceedings},
+	volume = {1263},
+	author = {Zaharieva, Maia and Schwab, Patrick},
+	publisher = {RWTH},
+	year = {2014},
+	language = {en},
+	abbrev_source_title = {CEUR workshop proc.},
+	issn = {1613-0073},
+	size = {2 p.},
+	booktitle = {Working Notes Proceedings of the MediaEval 2014 Workshop, Barcelona, Catalunya, Spain, October 16-17, 2014},
+	adress = {Aachen},
+	title = {A Unified Framework for Retrieving Diverse Social Images},
+	Note = {MediaEval 2014 Workshop; Conference Location: Barcelona, Spain; Conference Date: October 16-17, 2014}
+}

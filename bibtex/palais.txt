@@ -1,0 +1,13 @@
+@INPROCEEDINGS{20.500.11850/170141,
+	editor = {Romano, Daniela and Moffat, David},
+	author = {Schwab, Patrick and Hlavacs, Helmut},
+	publisher = {AISB},
+	year = {2015-04-01},
+	language = {en},
+	booktitle = {Proceedings of the AISB 2015 Symposium on AI and Games},
+	adress = {Canterbury},
+	isbn = {978-1-908187-47-5},
+	title = {PALAIS: A 3D Simulation Environment for Artificial Intelligence in Games},
+	PAGES = {18 - 21},
+	Note = {AISB Convention 2015}
+}

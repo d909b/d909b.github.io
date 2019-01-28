@@ -1,0 +1,13 @@
+@INPROCEEDINGS{20.500.11850/170140,
+	editor = {Jhala, Arnav and Sturtevant, Nathan},
+	author = {Schwab, Patrick and Hlavacs, Helmut},
+	publisher = {AAAI},
+	year = {2015-10-29},
+	language = {en},
+	booktitle = {Proceedings, The Eleventh AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment},
+	adress = {S.I.},
+	isbn = {978-1-57735-740-7},
+	title = {Capturing the Essence: Towards the Automated Generation of Transparent Behavior Models},
+	PAGES = {184 - 190},
+	Note = {Eleventh Annual AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE-15); Conference Location: Santa Cruz, CA, USA; Conference Date: November 14-18, 2015}
+}

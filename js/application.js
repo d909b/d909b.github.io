@@ -67,6 +67,7 @@ app.controller('AppController', function($scope){
             venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1810.01485.pdf",
             code: "",
+            poster: "http://schwabpatrick.com/posters/AAAI19-PD-poster2-24Jan2019.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/phonemd.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
@@ -78,6 +79,7 @@ app.controller('AppController', function($scope){
             venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1802.02195.pdf",
             code: "https://github.com/d909b/ame",
+            poster: "http://schwabpatrick.com/posters/AAAI19-AME-poster1-28Jan2019.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/ame.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
@@ -131,7 +133,7 @@ app.controller('AppController', function($scope){
             venue: "Proceedings of The Eleventh AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, 184-190, S.I.: AAAI, 2015.",
             pdf: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/aiide2015.pdf",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/81b4ad5fca44928163b4b01ff5eeae6eef2ddc13/aiide2015-poster.pdf",
-            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=169420&handle=20.500.11850/170140",
+            bibtex: "http://schwabpatrick.com/bibtex/capturing_the_essence.txt",
             image: "img/aiide15.png"
         },
         {
@@ -142,7 +144,7 @@ app.controller('AppController', function($scope){
             pdf: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/AISB2015.pdf",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/81b4ad5fca44928163b4b01ff5eeae6eef2ddc13/AISB2015-poster.pdf",
             code: "https://github.com/palais-ai/",
-            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=169054&handle=20.500.11850/170141",
+            bibtex: "http://schwabpatrick.com/bibtex/palais.txt",
             image: "img/aisb15.png"
         },
         {
@@ -153,7 +155,7 @@ app.controller('AppController', function($scope){
             pdf: "https://bitbucket.org/d909b/scientific-artifacts/raw/8f112743125342b8523ad9344a4f00905da74591/MediaEval2014.pdf",
             poster: "https://bitbucket.org/d909b/scientific-artifacts/raw/81b4ad5fca44928163b4b01ff5eeae6eef2ddc13/MediaEval2014-poster.pdf",
             code: "https://bitbucket.org/d909b/diverse-social-image-search",
-            bibtex: "https://www.research-collection.ethz.ch/discover/export?format=bibtex&singleItemid=169421&handle=20.500.11850/170143",
+            bibtex: "http://schwabpatrick.com/bibtex/diverse_images.txt",
             image: "img/mediaeval14.png"
         },
     ];
