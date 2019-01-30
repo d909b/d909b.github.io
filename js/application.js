@@ -68,6 +68,7 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/pdf/1810.01485.pdf",
             code: "",
             poster: "http://schwabpatrick.com/posters/AAAI19-PD-poster2-24Jan2019.pdf",
+            presentation: "http://schwabpatrick.com/presentations/AAAI19-PD-presentation.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/phonemd.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
