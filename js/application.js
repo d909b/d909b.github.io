@@ -61,6 +61,26 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
+            authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
+            year: "2019",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/xxxx.xxxxx.pdf",
+            code: "https://github.com/d909b/drnet",
+            bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
+            image: ""
+        },
+        {
+            title: "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks.",
+            authors: "Patrick Schwab, Lorenz Linhardt and Walter Karlen",
+            year: "2019",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/1810.00656.pdf",
+            code: "https://github.com/d909b/perfect_match",
+            bibtex: "http://schwabpatrick.com/bibtex/perfect_match.txt",
+            image: ""
+        },
+        {
             title: "PhoneMD: Learning to Diagnose Parkinson's Disease from Smartphone Data.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2019",
@@ -85,16 +105,6 @@ app.controller('AppController', function($scope){
             bibtex: "http://schwabpatrick.com/bibtex/ame.txt",
             image: "",
             notable: "Acceptance rate: 16.2%"
-        },
-        {
-            title: "Perfect Match: A Simple Method for Learning Representations For Counterfactual Inference With Neural Networks.",
-            authors: "Patrick Schwab, Lorenz Linhardt and Walter Karlen",
-            year: "2018",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/pdf/1810.00656.pdf",
-            code: "https://github.com/d909b/perfect_match",
-            bibtex: "http://schwabpatrick.com/bibtex/perfect_match.txt",
-            image: ""
         },
         {
             title: "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care.",
