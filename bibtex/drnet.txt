@@ -1,6 +1,6 @@
-@article{schwab2019drnet,
+@article{schwab2019doseresponse,
   title={{Learning Counterfactual Representations for Estimating Individual Dose-Response Curves}},
-  author={Schwab, Patrick and Linhardt, Lorenz and Bauer, Stefan and Buhmann, Joachim and Karlen, Walter},
-  journal={arXiv preprint arXiv:xxxx.xxxx},
+  author={Schwab, Patrick and Linhardt, Lorenz and Bauer, Stefan and Buhmann, Joachim M and Karlen, Walter},
+  journal={arXiv preprint arXiv:1902.00981},
   year={2019}
 }

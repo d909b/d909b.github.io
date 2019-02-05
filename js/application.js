@@ -65,7 +65,7 @@ app.controller('AppController', function($scope){
             authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
             year: "2019",
             venue: "arXiv preprint",
-            pdf: "https://arxiv.org/pdf/xxxx.xxxxx.pdf",
+            pdf: "https://arxiv.org/pdf/1902.00981.pdf",
             code: "https://github.com/d909b/drnet",
             bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
             image: ""
