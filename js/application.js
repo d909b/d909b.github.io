@@ -364,6 +364,12 @@ app.controller('AppController', function($scope){
             link: "https://www.cnet.com/news/researchers-use-smartphone-app-to-aid-parkinsons-disease-diagnoses/"
         },
         {
+            title: "Researchers claim AI can diagnose Parkinson’s disease from smartphone data.",
+            venue: "VentureBeat",
+            date: "Oct, 2018",
+            link: "https://venturebeat.com/2018/10/04/researchers-claim-ai-can-diagnose-parkinsons-disease-from-smartphone-data/"
+        },
+        {
             title: "Digital Has Got Your Back.",
             venue: "Neue Zürcher Zeitung (NZZ)",
             date: "Dec, 2017",
