@@ -176,7 +176,7 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
-            title: "I presented our recent works on diagnosing Parkinson's disease from smartphone data and on explaining the predictions of neural networks with attentive mixtures of experts at AAAI in Honululu, US.",
+            title: "I presented our recent works on diagnosing Parkinson's disease from smartphone data and on explaining the predictions of neural networks with attentive mixtures of experts at AAAI Conference on Artificial Intelligence in Honululu, US.",
             date: "2019-02-01",
             link: "https://aaai.org/Conferences/AAAI-19/"
         },
