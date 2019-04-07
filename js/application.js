@@ -317,6 +317,11 @@ app.controller('AppController', function($scope){
 
     $scope.awards = [
         {
+            title: "Associated Fellow.",
+            venue: "Max Planck ETH Center for Learning Systems",
+            date: "2019"
+        },
+        {
             title: "GPU Grant.",
             venue: "Nvidia Corporation",
             date: "2018"
