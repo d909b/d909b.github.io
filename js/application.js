@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Automated False Alarm Reduction in a Real-life Intensive Care Setting using Motion Detection.",
+            authors: "Carl Muroi, Sando Meier, Valeria De Luca, David J. Mack, Christian Strässle, Patrick Schwab, Walter Karlen and Emanuela Keller",
+            year: "2019 (to appear)",
+            venue: "Neurocritical Care",
+            pdf: "",
+            code: "",
+            bibtex: "",
+            image: ""
+        },
+        {
             title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
             authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
             year: "2019",
