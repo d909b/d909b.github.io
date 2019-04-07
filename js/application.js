@@ -63,8 +63,8 @@ app.controller('AppController', function($scope){
         {
             title: "Automated False Alarm Reduction in a Real-life Intensive Care Setting using Motion Detection.",
             authors: "Carl Muroi, Sando Meier, Valeria De Luca, David J. Mack, Christian Strässle, Patrick Schwab, Walter Karlen and Emanuela Keller",
-            year: "2019 (to appear)",
-            venue: "Neurocritical Care",
+            year: "2019",
+            venue: "Neurocritical Care (to appear)",
             pdf: "",
             code: "",
             bibtex: "",
