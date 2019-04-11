@@ -191,7 +191,7 @@ app.controller('AppController', function($scope){
             link: "http://schwabpatrick.com/presentations/workshop-git-10Apr2019.pdf"
         },
         {
-            title: "Our work on diagnosing Parkinson's disease using smartphone data has been features as one of '9 revolutionary applications of AI' by BotXO.",
+            title: "Our work on diagnosing Parkinson's disease using smartphone data has been featured as one of '9 revolutionary applications of AI' by BotXO.",
             date: "2019-03-07",
             link: "https://www.botxo.co/2019/03/07/9-revolutionary-applications-of-ai/"
         },
