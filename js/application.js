@@ -299,6 +299,12 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
+            title: "Learning to Diagnose Diabetes from Full Body Magnetic Resonance Imaging.",
+            name: "Benedikt Dietz, ETH Zurich",
+            level: "MSc, with Dr. Bauer, MPI for Intelligent Systems",
+            date: "2019"
+        },
+        {
             title: "Predictive Power of Respiratory Rate for Cardiac Arrythmias.",
             name: "Georgia Channing, University of Southern California",
             level: "BSc, with Prof. Karlen",
