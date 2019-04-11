@@ -186,6 +186,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our work on diagnosing Parkinson's disease using smartphone data has been features as one of '9 revolutionary applications of AI' by BotXO.",
+            date: "2019-03-07",
+            link: "https://www.botxo.co/2019/03/07/9-revolutionary-applications-of-ai/"
+        },
+        {
             title: "I presented our recent works on diagnosing Parkinson's disease from smartphone data and on explaining the predictions of neural networks with attentive mixtures of experts at AAAI Conference on Artificial Intelligence in Honululu, US.",
             date: "2019-02-01",
             link: "https://aaai.org/Conferences/AAAI-19/"
@@ -359,6 +364,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.media_coverage = [
+        {
+            title: "9 Revolutionary applications of AI that will make you re-think Machine Learning.",
+            venue: "BotXO",
+            date: "Mar, 2019",
+            link: "https://www.botxo.co/2019/03/07/9-revolutionary-applications-of-ai/"
+        },
         {
             title: "Fewer False Alarms in Intensive Care.",
             venue: "ETH News",
