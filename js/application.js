@@ -186,6 +186,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented our work on learning counterfactual representations for medical applications with neural networks at the ICU Cockpit Workshop, University Hospital Zurich, CH.",
+            date: "2019-06-24"
+        },
+        {
             title: "I held an introductory workshop on version control with git for scientists and engineers without a computer science background in Zurich, CH.",
             date: "2019-03-10",
             link: "http://schwabpatrick.com/presentations/workshop-git-10Apr2019.pdf"
