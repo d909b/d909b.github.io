@@ -1,0 +1,6 @@
+@article{muroi2019motion,
+  author={Muroi, Carl and Meier, Sando and De Luca, Valeria and Mack, David J. and Str{\"a}ssle, Christian and Schwab, Patrick and Karlen, Walter and Keller, Emanuela},
+  title={Automated False Alarm Reduction in a Real-Life Intensive Care Setting Using Motion Detection},
+  journal={{Neurocritical Care}},
+  year="2019"
+}
