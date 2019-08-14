@@ -186,6 +186,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented my PhD thesis 'Learning to Treat, Explain and Diagnose with Neural Networks' at the Max Planck Institute for Intelligent Systems in Tübingen, Germany.",
+            date: "2019-08-08"
+        },
+        {
             title: "I presented our work on learning counterfactual representations for medical applications with neural networks at the ICU Cockpit Workshop, University Hospital Zurich, CH.",
             date: "2019-06-24"
         },
