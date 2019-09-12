@@ -64,7 +64,7 @@ app.controller('AppController', function($scope){
             title: "CXPlain: Causal Explanations for Model Interpretation under Uncertainty.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2019",
-            venue: "Neural Information Processing Systems",
+            venue: "Advances in Neural Information Processing Systems",
             pdf: "",
             code: "",
             bibtex: "",
