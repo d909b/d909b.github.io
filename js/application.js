@@ -186,6 +186,14 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our paper 'CXPlain: Causal Explanations for Model Interpretation under Uncertainty' has been accepted to NeurIPS 2019 and will be presented in Vancouver, Canada.",
+            date: "2019-09-06"
+        },
+        {
+            title: "I successfully defended my PhD thesis 'Learning to Treat, Explain and Diagnose with Neural Networks' at ETH Zurich, Switzerland. Many thanks to my doctoral committee!",
+            date: "2019-08-23"
+        },
+        {
             title: "I presented my PhD thesis 'Learning to Treat, Explain and Diagnose with Neural Networks' at the Max Planck Institute for Intelligent Systems in Tübingen, Germany.",
             date: "2019-08-08"
         },
