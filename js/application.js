@@ -68,7 +68,8 @@ app.controller('AppController', function($scope){
             pdf: "",
             code: "",
             bibtex: "",
-            image: ""
+            image: "",
+            notable: "Acceptance rate: 21.2%"
         },
         {
             title: "Automated False Alarm Reduction in a Real-life Intensive Care Setting using Motion Detection.",
