@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "CXPlain: Causal Explanations for Model Interpretation under Uncertainty.",
+            authors: "Patrick Schwab and Walter Karlen",
+            year: "2019",
+            venue: "Neural Information Processing Systems",
+            pdf: "",
+            code: "",
+            bibtex: "",
+            image: ""
+        },
+        {
             title: "Automated False Alarm Reduction in a Real-life Intensive Care Setting using Motion Detection.",
             authors: "Carl Muroi, Sando Meier, Valeria De Luca, David J. Mack, Christian Strässle, Patrick Schwab, Walter Karlen and Emanuela Keller",
             year: "2019",
