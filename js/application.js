@@ -201,6 +201,10 @@ app.controller('AppController', function($scope){
             date: "2019-09-06"
         },
         {
+            title: "I joined Roche in Basel, Switzerland and Genentech in South San Francisco, US as a Principal Architect to continue my work on advancing Machine Learning in Personalised Medicine.",
+            date: "2019-09-01"
+        },
+        {
             title: "I successfully defended my PhD thesis 'Learning to Treat, Explain and Diagnose with Neural Networks' at ETH Zurich, Switzerland. Many thanks to my doctoral committee!",
             date: "2019-08-23"
         },
