@@ -2,7 +2,7 @@
 title: Patrick Schwab
 email: patrick.schwab@hest.ethz.ch
 description: > # this means to ignore newlines until "baseurl:"
-  Patrick Schwab is a doctoral researcher at ETH Zurich working on machine learning in healthcare.
+  Patrick Schwab is a Principal Architect at Roche working on Machine Learning in Personalised Medicine. Previously, he was a doctoral researcher at ETH Zurich working on Machine Learning in Healthcare.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://schwabpatrick.com/" # the base hostname & protocol for your site
 twitter_username: schwabpa
