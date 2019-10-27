@@ -1,0 +1,6 @@
+@inproceedings{schwab2019cxplain,
+  title={{CXPlain: Causal Explanations for Model Interpretation under Uncertainty}},
+  author={Schwab, Patrick and Karlen, Walter},
+  booktitle={{Advances in Neural Information Processing Systems (NeurIPS)}},
+  year={2019}
+}

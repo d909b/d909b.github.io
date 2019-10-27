@@ -65,8 +65,8 @@ app.controller('AppController', function($scope){
             authors: "Patrick Schwab and Walter Karlen",
             year: "2019",
             venue: "Advances in Neural Information Processing Systems",
-            pdf: "",
-            code: "",
+            pdf: "https://www.researchgate.net/publication/336838978_CXPlain_Causal_Explanations_for_Model_Interpretation_under_Uncertainty",
+            code: "https://github.com/d909b/cxplain",
             bibtex: "",
             image: "",
             notable: "Acceptance rate: 21.2%"
