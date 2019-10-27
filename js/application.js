@@ -67,7 +67,7 @@ app.controller('AppController', function($scope){
             venue: "Advances in Neural Information Processing Systems",
             pdf: "https://www.researchgate.net/publication/336838978_CXPlain_Causal_Explanations_for_Model_Interpretation_under_Uncertainty",
             code: "https://github.com/d909b/cxplain",
-            bibtex: "",
+            bibtex: "http://schwabpatrick.com/bibtex/cxplain.txt",
             image: "",
             notable: "Acceptance rate: 21.2%"
         },
