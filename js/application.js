@@ -61,6 +61,17 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
+            authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
+            year: "2020",
+            venue: "AAAI Conference on Artificial Intelligence (to appear)",
+            pdf: "https://arxiv.org/pdf/1902.00981.pdf",
+            code: "https://github.com/d909b/drnet",
+            bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
+            image: "",
+            notable: "Acceptance rate: 20.6%"
+        },
+        {
             title: "CXPlain: Causal Explanations for Model Interpretation under Uncertainty.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2019",
@@ -79,16 +90,6 @@ app.controller('AppController', function($scope){
             pdf: "https://link.springer.com/article/10.1007/s12028-019-00711-w",
             code: "",
             bibtex: "http://schwabpatrick.com/bibtex/motiondetection.txt",
-            image: ""
-        },
-        {
-            title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
-            authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
-            year: "2019",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/pdf/1902.00981.pdf",
-            code: "https://github.com/d909b/drnet",
-            bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
             image: ""
         },
         {
