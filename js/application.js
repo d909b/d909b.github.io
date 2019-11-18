@@ -77,6 +77,7 @@ app.controller('AppController', function($scope){
             year: "2019",
             venue: "Advances in Neural Information Processing Systems",
             pdf: "https://arxiv.org/abs/1910.12336",
+            poster: "http://schwabpatrick.com/posters/NeurIPS19-cxplain-poster1-23Oct2019.pdf",
             code: "https://github.com/d909b/cxplain",
             bibtex: "http://schwabpatrick.com/bibtex/cxplain.txt",
             image: "",
