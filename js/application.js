@@ -199,6 +199,10 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our paper 'Learning Counterfactual Representations for Estimating Individual Dose-Response Curves' has been accepted to AAAI 2020 and will be presented in New York, US.",
+            date: "2019-11-14"
+        },
+        {
             title: "Our paper 'CXPlain: Causal Explanations for Model Interpretation under Uncertainty' has been accepted to NeurIPS 2019 and will be presented in Vancouver, Canada.",
             date: "2019-09-06"
         },
