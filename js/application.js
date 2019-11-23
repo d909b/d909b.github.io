@@ -84,6 +84,15 @@ app.controller('AppController', function($scope){
             notable: "Acceptance rate: 21.2%"
         },
         {
+            title: "Learning to Treat, Explain and Diagnose with Neural Networks.",
+            authors: "Patrick Schwab",
+            year: "2019",
+            venue: "PhD thesis, ETH Zurich",
+            pdf: "https://www.research-collection.ethz.ch/handle/20.500.11850/379702",
+            bibtex: "http://schwabpatrick.com/bibtex/phdthesis.txt",
+            image: "",
+        },
+        {
             title: "Automated False Alarm Reduction in a Real-life Intensive Care Setting using Motion Detection.",
             authors: "Carl Muroi, Sando Meier, Valeria De Luca, David J. Mack, Christian Strässle, Patrick Schwab, Walter Karlen and Emanuela Keller",
             year: "2019",
