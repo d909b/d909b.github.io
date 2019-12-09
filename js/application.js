@@ -350,9 +350,15 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
+            title: "Privacy-preserving Federated Learning in Medical Imaging.",
+            name: "August DuMont Schütte, ETH Zurich",
+            level: "MSc, with Dr. Bauer and Prof. Schölkopf, MPI for Intelligent Systems",
+            date: "2020"
+        },
+        {
             title: "Learning to Diagnose Diabetes from Full Body Magnetic Resonance Imaging.",
             name: "Benedikt Dietz, ETH Zurich",
-            level: "MSc, with Dr. Bauer, MPI for Intelligent Systems",
+            level: "MSc, with Dr. Bauer and Prof. Schölkopf, MPI for Intelligent Systems",
             date: "2019"
         },
         {
