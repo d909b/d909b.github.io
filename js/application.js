@@ -149,7 +149,7 @@ app.controller('AppController', function($scope){
             presentation: "http://schwabpatrick.com/presentations/ICML18-dsmtnet-presentation.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/nottocry.txt",
             image: "",
-            notable: "Acceptance rate: 25.1%"
+            notable: "Spotlight presentation, Acceptance rate: 25.1%"
         },
         {
             title: "Automated Extraction of Digital Biomarkers for Parkinson’s Disease.",
