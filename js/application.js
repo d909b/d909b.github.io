@@ -218,6 +218,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our latest collaborative paper on crowdsourcing digital biomarkers from smartphone data has been released on bioRxiv.",
+            date: "2020-01-13",
+            link: "https://www.biorxiv.org/content/10.1101/2020.01.13.904722v1.full"
+        },
+        {
             title: "Our paper 'Learning Counterfactual Representations for Estimating Individual Dose-Response Curves' has been accepted to AAAI 2020 and will be presented in New York, US.",
             date: "2019-11-14"
         },
