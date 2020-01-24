@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
+            authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
+            year: "2020",
+            venue: "bioRxiv doi: 10.1101/2020.01.13.904722",
+            pdf: "https://www.biorxiv.org/content/10.1101/2020.01.13.904722v1.full",
+            bibtex: "http://schwabpatrick.com/bibtex/crowdsourcing_pd.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
             authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
             year: "2020",
