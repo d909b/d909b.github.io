@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data.",
+            authors: "Patrick Schwab and Walter Karlen",
+            year: "2020",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2001.09748.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/biomarker_ms.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
             authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
             year: "2020",
@@ -217,6 +227,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our paper on diagnosing Multiple Sclerosis from smartphone-derived digital biomarkers has appeared on arXiv.",
+            date: "2020-01-28",
+            link: "https://arxiv.org/abs/2001.09748"
+        },
         {
             title: "Our latest collaborative paper on crowdsourcing digital biomarkers from smartphone data has been released on bioRxiv.",
             date: "2020-01-13",
