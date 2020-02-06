@@ -78,6 +78,7 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/pdf/1902.00981.pdf",
             code: "https://github.com/d909b/drnet",
             bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
+            presentation: "http://schwabpatrick.com/presentations/AAAI20-drnet-spotlight.pdf",
             image: "",
             notable: "Acceptance rate: 20.6%"
         },
