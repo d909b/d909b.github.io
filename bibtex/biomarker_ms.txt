@@ -1,0 +1,6 @@
+@article{schwab2020deepms,
+  title={{A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data}},
+  author={Schwab, Patrick and Karlen, Walter},
+  journal={arXiv preprint arXiv:2001.09748},
+  year={2020}
+}
