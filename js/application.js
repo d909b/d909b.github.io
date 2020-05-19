@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "predCOVID-19: A Systematic Study of Clinical Predictive Models for Coronavirus Disease 2019.",
+            authors: "Patrick Schwab, August Schütte DuMont, Benedikt Dietz, Stefan Bauer",
+            year: "2020",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2005.08302.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/predcovid19.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2020",
@@ -229,6 +239,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "We released a new paper on predicting COVID-19 clinical pathways from routinely collected data.",
+            date: "2020-05-19",
+            link: "https://arxiv.org/abs/2005.08302"
+        },
         {
             title: "Our paper on diagnosing Multiple Sclerosis from smartphone-derived digital biomarkers has appeared on arXiv.",
             date: "2020-01-28",
