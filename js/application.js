@@ -240,6 +240,16 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "My PhD thesis research has been awarded the 1st Runner-up Research award at the Annual Meeting of the Swiss Society of Biomedical Engineering (SSBE) 2020.",
+            date: "2020-08-27",
+            link: ""
+        },
+        {
+            title: "Our recent paper on diagnosing Multiple Sclerosis using smartphone-derived digital biomarkers has been accepted for publication at the IEEE Journal of Biomedical and Health Informatics.",
+            date: "2020-08-27",
+            link: "https://arxiv.org/abs/2001.09748"
+        },
+        {
             title: "We released a new paper on predicting COVID-19 clinical pathways from routinely collected data.",
             date: "2020-05-19",
             link: "https://arxiv.org/abs/2005.08302"
