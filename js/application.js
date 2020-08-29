@@ -240,7 +240,7 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
-            title: "My PhD thesis research has been awarded the 1st Runner-up Research award at the Annual Meeting of the Swiss Society of Biomedical Engineering (SSBE) 2020.",
+            title: "My PhD thesis research has been awarded the 1st Runner-up Research Award at the Annual Meeting of the Swiss Society of Biomedical Engineering (SSBE) 2020.",
             date: "2020-08-27",
             link: ""
         },
@@ -451,6 +451,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.awards = [
+        {
+            title: "1st Runner-up Research Award",
+            venue: "Swiss Society of Biomedical Engineering",
+            date: "2020"
+        },
         {
             title: "Associated Fellow.",
             venue: "Max Planck ETH Center for Learning Systems",
