@@ -250,6 +250,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our recent work on real-time prediction of COVID-19 related mortality risk has recently been released on arXiv.",
+            date: "2020-08-31",
+            link: "https://arxiv.org/pdf/2008.13412"
+        },
+        {
             title: "My PhD thesis research has been awarded the 1st Runner-up Research Award at the Annual Meeting of the Swiss Society of Biomedical Engineering (SSBE) 2020.",
             date: "2020-08-27",
             link: ""
