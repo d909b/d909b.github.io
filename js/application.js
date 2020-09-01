@@ -61,6 +61,16 @@ app.controller('AppController', function($scope){
 
     $scope.publications = [
         {
+            title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
+            authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
+            year: "2020",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2008.13412.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "predCOVID-19: A Systematic Study of Clinical Predictive Models for Coronavirus Disease 2019.",
             authors: "Patrick Schwab, August Schütte DuMont, Benedikt Dietz, Stefan Bauer",
             year: "2020",
