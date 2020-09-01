@@ -104,7 +104,7 @@ app.controller('AppController', function($scope){
             title: "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves.",
             authors: "Patrick Schwab, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann and Walter Karlen",
             year: "2020",
-            venue: "AAAI Conference on Artificial Intelligence (to appear)",
+            venue: "AAAI Conference on Artificial Intelligence",
             pdf: "https://arxiv.org/pdf/1902.00981.pdf",
             code: "https://github.com/d909b/drnet",
             bibtex: "http://schwabpatrick.com/bibtex/drnet.txt",
