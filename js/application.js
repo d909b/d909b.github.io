@@ -84,7 +84,7 @@ app.controller('AppController', function($scope){
             title: "A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data.",
             authors: "Patrick Schwab and Walter Karlen",
             year: "2020",
-            venue: "arXiv preprint",
+            venue: "IEEE Journal on Biomedical and Health Informatics (to appear)",
             pdf: "https://arxiv.org/pdf/2001.09748.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/biomarker_ms.txt",
             image: "",
