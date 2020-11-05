@@ -1,7 +1,9 @@
 @article{schwab2020covid19,
-  title={{predCOVID-19: A Systematic Study of Clinical Predictive Models for Coronavirus Disease 2019
-}},
+  title={{Clinical Predictive Models for COVID-19: Systematic Study}},
   author={Schwab, Patrick and Schütte DuMont, August and Dietz, Benedikt and Bauer, Stefan},
-  journal={arXiv preprint arXiv:2005.08302},
-  year={2020}
+  journal="Journal of Medical Internet Research",
+  year="2020",
+  volume="22",
+  number="10",
+  pages="e21439",
 }

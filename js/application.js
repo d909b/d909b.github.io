@@ -71,11 +71,11 @@ app.controller('AppController', function($scope){
             notable: ""
         },
         {
-            title: "predCOVID-19: A Systematic Study of Clinical Predictive Models for Coronavirus Disease 2019.",
+            title: "Clinical Predictive Models for COVID-19: Systematic Study.",
             authors: "Patrick Schwab, August Schütte DuMont, Benedikt Dietz, Stefan Bauer",
             year: "2020",
-            venue: "Journal of Medical Internet Research (to appear)",
-            pdf: "https://arxiv.org/pdf/2005.08302.pdf",
+            venue: "Journal of Medical Internet Research",
+            pdf: "https://www.jmir.org/2020/10/e21439/pdf",
             bibtex: "http://schwabpatrick.com/bibtex/predcovid19.txt",
             image: "",
             notable: ""
@@ -249,6 +249,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our recent work on predicting clinical pathways for COVID-19 has been accepted for publication at the Journal of Medical Internet Research (JMIR).",
+            date: "2020-09-01",
+            link: "https://www.jmir.org/2020/10/e21439"
+        },
         {
             title: "Our recent work on real-time prediction of COVID-19 related mortality risk has recently been released on arXiv.",
             date: "2020-08-31",
