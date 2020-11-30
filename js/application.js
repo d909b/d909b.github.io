@@ -58,7 +58,6 @@ app.filter('highlight', function($sce) {
 });
 
 app.controller('AppController', function($scope){
-
     $scope.publications = [
         {
             title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
