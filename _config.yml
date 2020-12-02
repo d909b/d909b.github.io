@@ -1,8 +1,8 @@
 # Site settings
 title: Patrick Schwab
-email: patrick.schwab@roche.com
+email: patrick.x.schwab@gsk.com
 description: > # this means to ignore newlines until "baseurl:"
-  Patrick Schwab is a Principal Architect at Roche working on Machine Learning in Personalised Medicine. Previously, he was a doctoral researcher at ETH Zurich working on Machine Learning in Healthcare.
+  Patrick Schwab is Director of Machine Learning and Artificial Intelligence at GSK AI/ML. Previously, he was Principal Architect at Roche working on Machine Learning in Personalised Medicine and a doctoral researcher at ETH Zurich working on Machine Learning in Healthcare.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://schwabpatrick.com/" # the base hostname & protocol for your site
 twitter_username: schwabpa
