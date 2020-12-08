@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
+            authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
+            year: "2020",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2012.03769.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
             authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
             year: "2020",

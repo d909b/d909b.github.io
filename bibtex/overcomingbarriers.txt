@@ -1,0 +1,6 @@
+@article{schuette2020overcoming,
+    title={{Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation}},
+    author={August DuMont Schütte and Jürgen Hetzel and Sergios Gatidis and Tobias Hepp and Benedikt Dietz and Stefan Bauer and Patrick Schwab},
+    year={2020},
+    journal={arXiv preprint arXiv:2012.03769}
+}
