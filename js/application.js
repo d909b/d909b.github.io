@@ -259,6 +259,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "We released a new pre-print on overcoming barriers to data sharing in biomedical imaging using generative adversarial networks (GANs).",
+            date: "2020-11-29",
+            link: "https://arxiv.org/abs/2012.03769"
+        },
+        {
             title: "Our recent work on predicting clinical pathways for COVID-19 has been accepted for publication at the Journal of Medical Internet Research (JMIR).",
             date: "2020-09-01",
             link: "https://www.jmir.org/2020/10/e21439"
