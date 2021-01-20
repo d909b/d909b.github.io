@@ -259,6 +259,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our paper on real-time prediction of COVID-19 related mortality from electronic health records was accepted for publication at Nature Communications.",
+            date: "2021-01-18",
+            link: "https://arxiv.org/pdf/2008.13412.pdf"
+        },
+        {
             title: "We released a new pre-print on overcoming barriers to data sharing in biomedical imaging using generative adversarial networks (GANs).",
             date: "2020-11-29",
             link: "https://arxiv.org/abs/2012.03769"
