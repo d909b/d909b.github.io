@@ -73,7 +73,7 @@ app.controller('AppController', function($scope){
             title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
             authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
             year: "2020",
-            venue: "arXiv preprint",
+            venue: "Nature Communications",
             pdf: "https://arxiv.org/pdf/2008.13412.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
             image: "",
