@@ -1,6 +1,8 @@
 @article{schwab2020covews,
     title={{Real-time Prediction of COVID-19 related Mortality using Electronic Health Records}},
     author={Patrick Schwab and Arash Mehrjou and Sonali Parbhoo and Leo Anthony Celi and Jürgen Hetzel and Markus Hofer and Bernhard Schölkopf and Stefan Bauer},
-    year={2020},
-    journal={arXiv preprint arXiv:2008.13412}
+    year={2021},
+    volume={12},
+    pages={1058},
+    journal={Nature Communications}
 }
