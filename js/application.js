@@ -62,7 +62,7 @@ app.controller('AppController', function($scope){
         {
             title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
             authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
-            year: "2020",
+            year: "2021",
             venue: "npj Digital Medicine",
             pdf: "https://www.nature.com/articles/s41746-021-00414-7",
             bibtex: "http://schwabpatrick.com/bibtex/crowdsourcing_pd.txt",
@@ -70,22 +70,22 @@ app.controller('AppController', function($scope){
             notable: ""
         },
         {
-            title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
-            authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
-            year: "2020",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/pdf/2012.03769.pdf",
-            bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
+            title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
+            authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
+            year: "2021",
+            venue: "Nature Communications",
+            pdf: "https://www.nature.com/articles/s41467-020-20816-7",
+            bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
             image: "",
             notable: ""
         },
         {
-            title: "Real-time Prediction of COVID-19 related Mortality using Electronic Health Records.",
-            authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
-            year: "2020",
-            venue: "Nature Communications",
-            pdf: "https://www.nature.com/articles/s41467-020-20816-7",
-            bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
+            title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
+            authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
+            year: "2021",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2012.03769.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
             image: "",
             notable: ""
         },
