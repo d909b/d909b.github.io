@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
+            authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
+            year: "2020",
+            venue: "npj Digital Medicine",
+            pdf: "https://www.nature.com/articles/s41746-021-00414-7",
+            bibtex: "http://schwabpatrick.com/bibtex/crowdsourcing_pd.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
             authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
             year: "2020",
@@ -96,16 +106,6 @@ app.controller('AppController', function($scope){
             venue: "IEEE Journal on Biomedical and Health Informatics",
             pdf: "https://arxiv.org/pdf/2001.09748.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/biomarker_ms.txt",
-            image: "",
-            notable: ""
-        },
-        {
-            title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
-            authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
-            year: "2020",
-            venue: "bioRxiv doi: 10.1101/2020.01.13.904722",
-            pdf: "https://www.biorxiv.org/content/10.1101/2020.01.13.904722v1.full",
-            bibtex: "http://schwabpatrick.com/bibtex/crowdsourcing_pd.txt",
             image: "",
             notable: ""
         },
@@ -258,6 +258,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our collaborative work on crowd sourcing digital health measures for Parkinson's disease was published in npj Digital Medicine.",
+            date: "2021-03-19",
+            link: "https://www.nature.com/articles/s41746-021-00414-7"
+        },
         {
             title: "Our paper on real-time prediction of COVID-19 related mortality from electronic health records was accepted for publication at Nature Communications.",
             date: "2021-01-18",
