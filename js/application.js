@@ -84,7 +84,7 @@ app.controller('AppController', function($scope){
             authors: "Patrick Schwab, Arash Mehrjou, Sonali Parbhoo, Leo Anthony Celi, Jürgen Hetzel, Markus Hofer, Bernhard Schölkopf, Stefan Bauer",
             year: "2020",
             venue: "Nature Communications",
-            pdf: "https://arxiv.org/pdf/2008.13412.pdf",
+            pdf: "https://www.nature.com/articles/s41467-020-20816-7",
             bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
             image: "",
             notable: ""
@@ -266,7 +266,7 @@ app.controller('AppController', function($scope){
         {
             title: "Our paper on real-time prediction of COVID-19 related mortality from electronic health records was accepted for publication at Nature Communications.",
             date: "2021-01-18",
-            link: "https://arxiv.org/pdf/2008.13412.pdf"
+            link: "https://www.nature.com/articles/s41467-020-20816-7"
         },
         {
             title: "We released a new pre-print on overcoming barriers to data sharing in biomedical imaging using generative adversarial networks (GANs).",
@@ -533,6 +533,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.media_coverage = [
+        {
+            title: "Artificial intelligence as a Corona warning system",
+            venue: "taz",
+            date: "Feb, 2021",
+            link: "https://taz.de/Kuenstliche-Intelligenz-als-Warnsytem/!5753140/"
+        },
         {
             title: "9 Revolutionary applications of AI that will make you re-think Machine Learning.",
             venue: "BotXO",
