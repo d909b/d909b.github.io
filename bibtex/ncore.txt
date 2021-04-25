@@ -1,0 +1,6 @@
+@article{parbhoo2021ncore,
+  title={{NCoRE: Neural Counterfactual Representation Learning for Combinations of Treatments}},
+  author={Parbhoo, Sonali and Bauer, Stefan and Schwab, Patrick},
+  journal={arXiv preprint arXiv:2103.11175},
+  year={2021}
+}

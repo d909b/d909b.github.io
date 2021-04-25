@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "NCoRE: Neural Counterfactual Representation Learning for Combinations of Treatments.",
+            authors: "Sonali Parbhoo, Stefan Bauer, Patrick Schwab",
+            year: "2021",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/pdf/2103.11175.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/ncore.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Crowdsourcing digital health measures to predict Parkinson's disease severity: the Parkinson's Disease Digital Biomarker DREAM Challenge.",
             authors: "Solveig K. Sieberts, Jennifer Schaff, Marlena Duda, Balint Armin Pataki, Ming Sun, Phil Snyder, Jean-Francois Daneault, Federico Parisi, Gianluca Costante, Udi Rubin, Peter Banda, Yooree Chae, Elias Chaibub Neto, Ray Dorsey, Zafer Aydin, Aipeng Chen, Laura L. Elo, Carlos Espino, Enrico Glaab, Ethan Goan, Fatemeh Noushin Golabchi, Yasin Gormez, Maria K. Jaakkola, Jitendra Jonnagaddala, Riku Klen, Dongmei Li, Christian McDaniel, Dimitri Perrin, Nastaran Mohammadian Rad, Erin Rainaldi, Stefano Sapienza, Patrick Schwab, Nikolai Shokhirev, Mikko S. Venäläinen, Gloria Vergara-Diaz, Yuqian Zhang, Yuanjia Wang, Yuanfang Guan, Daniela Brunner, Paolo Bonato, Lara M. Mangravite and Larsson Omberg",
             year: "2021",
@@ -450,6 +460,18 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.supervision = [
+        {
+            title: "Generative Modelling of Medical Time Series.",
+            name: "Simon Bing, ETH Zurich",
+            level: "MSc, with Dr. Bauer, MPI for Intelligent Systems and Prof. Rätsch, ETH Zurich",
+            date: "2021"
+        },
+        {
+            title: "Active Causal Structure Learning.",
+            name: "Nino Scherrer, ETH Zurich",
+            level: "MSc, with Dr. Bauer and Prof. Schölkopf, MPI for Intelligent Systems",
+            date: "2021"
+        },
         {
             title: "Privacy-preserving Federated Learning in Medical Imaging.",
             name: "August DuMont Schütte, ETH Zurich",
