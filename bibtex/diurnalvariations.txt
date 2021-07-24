@@ -1,0 +1,11 @@
+@article{clark2021diurnalvariations,
+    author = {Ian Clark and Benjamin Stucky and Yasmine Azza and Patrick Schwab and Stefan Müller and Daniel Weibel and Daniel Button and Walter Karlen and Erich Seifritz and Birgit Kleim and Hans-Peter Landolt},
+    title = {Diurnal variations in multi-sensor wearable-derived sleep characteristics in morning- and evening-type shift workers under naturalistic conditions},
+    journal = {Chronobiology International},
+    volume = {0},
+    number = {0},
+    pages = {1-12},
+    year  = {2021},
+    publisher = {Taylor & Francis},
+    doi = {10.1080/07420528.2021.1941074}
+}

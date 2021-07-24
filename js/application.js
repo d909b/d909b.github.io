@@ -93,9 +93,19 @@ app.controller('AppController', function($scope){
             title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
             authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
             year: "2021",
-            venue: "arXiv preprint",
+            venue: "arXiv preprint (accepted at npj Digital Medicine)",
             pdf: "https://arxiv.org/pdf/2012.03769.pdf",
             bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
+            image: "",
+            notable: ""
+        },
+        {
+            title: "Diurnal variations in multi-sensor wearable-derived sleep characteristics in morning-and evening-type shift workers under naturalistic conditions.",
+            authors: "Ian Clark, Benjamin Stucky, Yasmine Azza, Patrick Schwab, Stefan Müller, Daniel Weibel, Daniel Button, Walter Karlen, Erich Seifritz, Birgit Kleim, Hans-Peter Landolt",
+            year: "2021",
+            venue: "Chronobiology International",
+            pdf: "https://www.tandfonline.com/doi/pdf/10.1080/07420528.2021.1941074?needAccess=true",
+            bibtex: "http://schwabpatrick.com/bibtex/diurnalvariations.txt",
             image: "",
             notable: ""
         },
@@ -268,6 +278,16 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our paper on image generation for data sharing in medical imaging was accepted for publication in npj Digital Medicine.",
+            date: "2021-07-23",
+            link: "https://arxiv.org/pdf/2012.03769.pdf"
+        },
+        {
+            title: "I presented on developing medicines with a higher probability of success at the Algorithms for Hope conference jointly organized by GDI, Swiss Re and IBM Research.",
+            date: "2021-06-15",
+            link: "https://www.swissre.com/dam/jcr:bc31e5b0-da42-48ac-9d7e-9d8b4b5f5850/presentation-patrick-schwab.pdf"
+        },
         {
             title: "Our collaborative work on crowd sourcing digital health measures for Parkinson's disease was published in npj Digital Medicine.",
             date: "2021-03-19",
