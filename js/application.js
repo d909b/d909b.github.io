@@ -279,6 +279,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "I presented on how we are developing medicines with a higher probability of success with robotic automation, AI and molecular perturbations at the Applied Machine Learning Days (AMLD) hosted by EPFL.",
+            date: "2021-08-23",
+            link: "https://youtu.be/-w7P_PlDTA4?t=4855"
+        },
+        {
             title: "Our paper on image generation for data sharing in medical imaging was accepted for publication in npj Digital Medicine.",
             date: "2021-07-23",
             link: "https://arxiv.org/pdf/2012.03769.pdf"
