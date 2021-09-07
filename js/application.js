@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Learning Neural Causal Models with Active Interventions.",
+            authors: "Nino Scherrer, Olexa Bilaniuk, Yashas Annadani, Anirudh Goyal, Patrick Schwab, Bernhard Schölkopf, Michael C. Mozer, Yoshua Bengio, Stefan Bauer, Nan Rosemary Ke",
+            year: "2021",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2109.02429",
+            bibtex: "http://schwabpatrick.com/bibtex/causal_active_targetting.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "NCoRE: Neural Counterfactual Representation Learning for Combinations of Treatments.",
             authors: "Sonali Parbhoo, Stefan Bauer, Patrick Schwab",
             year: "2021",
@@ -278,6 +288,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "We released a new preprint on neural causal structure discovery with active targeting and differentiable causal models.",
+            date: "2021-09-07",
+            link: "https://arxiv.org/abs/2109.02429"
+        },
         {
             title: "I presented on how we are developing medicines with a higher probability of success with robotic automation, AI and molecular perturbations at the Applied Machine Learning Days (AMLD) hosted by EPFL.",
             date: "2021-08-23",

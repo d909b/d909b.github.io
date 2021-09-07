@@ -1,0 +1,6 @@
+@article{scherrer2021activecausal,
+  title={{Learning Neural Causal Models with Active Interventions}},
+  author={Nino Scherrer, Olexa Bilaniuk, Yashas Annadani, Anirudh Goyal, Patrick Schwab, Bernhard Schölkopf, Michael C. Mozer, Yoshua Bengio, Stefan Bauer, Nan Rosemary Ke},
+  journal={arXiv preprint arXiv:2109.02429},
+  year={2021}
+}
