@@ -1,0 +1,10 @@
+@article{dietz2021diabetesmri,
+    author = {Benedikt Dietz AND Jürgen Machann AND Vaibhav Agrawal AND Martin Heni AND Patrick Schwab AND Julia Dienes AND Steffen Reichert AND Andreas L. Birkenfeld AND Hans-Ulrich Häring AND Fritz Schick AND Norbert Stefan AND Andreas Fritsche AND Hubert Preissl AND Bernhard Schölkopf AND Stefan Bauer AND Robert Wagner},
+    journal = {JCI Insight},
+    publisher = {The American Society for Clinical Investigation},
+    title = {Diabetes detection from whole-body magnetic resonance imaging using deep learning},
+    year = {2021},
+    month = {9},
+    volume = {},
+    doi = {10.1172/jci.insight.146999}
+}

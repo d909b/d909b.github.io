@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Diabetes detection from whole-body magnetic resonance imaging using deep learning.",
+            authors: "Benedikt Dietz, Jürgen Machann, Vaibhav Agrawal, Martin Heni, Patrick Schwab, Julia Dienes, Steffen Reichert, Andreas L. Birkenfeld, Hans-Ulrich Häring, Fritz Schick, Norbert Stefan, Andreas Fritsche, Hubert Preissl, Bernhard Schölkopf, Stefan Bauer, Robert Wagner",
+            year: "2021",
+            venue: "JCI Insight",
+            pdf: "https://insight.jci.org/articles/view/146999/version/1",
+            bibtex: "http://schwabpatrick.com/bibtex/diabetes_mri.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Learning Neural Causal Models with Active Interventions.",
             authors: "Nino Scherrer, Olexa Bilaniuk, Yashas Annadani, Anirudh Goyal, Patrick Schwab, Bernhard Schölkopf, Michael C. Mozer, Yoshua Bengio, Stefan Bauer, Nan Rosemary Ke",
             year: "2021",
@@ -120,22 +130,22 @@ app.controller('AppController', function($scope){
             notable: ""
         },
         {
+            title: "A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data.",
+            authors: "Patrick Schwab and Walter Karlen",
+            year: "2021",
+            venue: "IEEE Journal on Biomedical and Health Informatics",
+            pdf: "https://arxiv.org/pdf/2001.09748.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/biomarker_ms.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Clinical Predictive Models for COVID-19: Systematic Study.",
             authors: "Patrick Schwab, August Schütte DuMont, Benedikt Dietz, Stefan Bauer",
             year: "2020",
             venue: "Journal of Medical Internet Research",
             pdf: "https://www.jmir.org/2020/10/e21439/pdf",
             bibtex: "http://schwabpatrick.com/bibtex/predcovid19.txt",
-            image: "",
-            notable: ""
-        },
-        {
-            title: "A Deep Learning Approach to Diagnosing Multiple Sclerosis from Smartphone Data.",
-            authors: "Patrick Schwab and Walter Karlen",
-            year: "2020",
-            venue: "IEEE Journal on Biomedical and Health Informatics",
-            pdf: "https://arxiv.org/pdf/2001.09748.pdf",
-            bibtex: "http://schwabpatrick.com/bibtex/biomarker_ms.txt",
             image: "",
             notable: ""
         },
@@ -288,6 +298,11 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.news = [
+        {
+            title: "Our new study on using deep learning and whole-body Magnetic Resonance Imaging (MRI) to detect diabetes and pre-diabetes was published in JCI Insight.",
+            date: "2021-09-30",
+            link: "https://insight.jci.org/articles/view/146999/version/1"
+        },
         {
             title: "We released a new preprint on neural causal structure discovery with active targeting and differentiable causal models.",
             date: "2021-09-07",
