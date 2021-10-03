@@ -113,8 +113,8 @@ app.controller('AppController', function($scope){
             title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
             authors: "August DuMont Schütte, Jürgen Hetzel, Sergios Gatidis, Tobias Hepp, Benedikt Dietz, Stefan Bauer, Patrick Schwab",
             year: "2021",
-            venue: "arXiv preprint (accepted at npj Digital Medicine)",
-            pdf: "https://arxiv.org/pdf/2012.03769.pdf",
+            venue: "npj Digital Medicine",
+            pdf: "https://www.nature.com/articles/s41746-021-00507-3",
             bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
             image: "",
             notable: ""
