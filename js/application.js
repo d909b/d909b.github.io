@@ -573,6 +573,11 @@ app.controller('AppController', function($scope){
 
     $scope.awards = [
         {
+            title: "Outstanding Reviewer Award (top 8%)",
+            venue: "Advances in Neural Information Processing Systems (NeurIPS)",
+            date: "2021"
+        },
+        {
             title: "1st Runner-up Research Award",
             venue: "Swiss Society of Biomedical Engineering",
             date: "2020"
