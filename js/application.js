@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "GeneDisco: A Benchmark for Experimental Design in Drug Discovery.",
+            authors: "Arash Mehrjou, Ashkan Soleymani, Andrew Jesson, Pascal Notin, Yarin Gal, Stefan Bauer, Patrick Schwab",
+            year: "2021",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2110.11875",
+            bibtex: "http://schwabpatrick.com/bibtex/genedisco.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Diabetes detection from whole-body magnetic resonance imaging using deep learning.",
             authors: "Benedikt Dietz, Jürgen Machann, Vaibhav Agrawal, Martin Heni, Patrick Schwab, Julia Dienes, Steffen Reichert, Andreas L. Birkenfeld, Hans-Ulrich Häring, Fritz Schick, Norbert Stefan, Andreas Fritsche, Hubert Preissl, Bernhard Schölkopf, Stefan Bauer, Robert Wagner",
             year: "2021",
@@ -299,6 +309,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "We released a new preprint on benchmarking active learning for drug discovery with genetic interventions on arXiv.",
+            date: "2021-10-25",
+            link: "https://arxiv.org/abs/2110.11875"
+        },
+        {
             title: "Our new study on using deep learning and whole-body Magnetic Resonance Imaging (MRI) to detect diabetes and pre-diabetes was published in JCI Insight.",
             date: "2021-09-30",
             link: "https://insight.jci.org/articles/view/146999/version/1"
@@ -515,6 +530,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.supervision = [
+        {
+            title: "A whole-genome sequencing approach to advance precision medicine and study patient heterogeneity in ALS.",
+            name: "Heather Marriott, King's College London",
+            level: "PhD, with Prof. Al-Chalabi, King's College London",
+            date: "2021 - ongoing"
+        },
         {
             title: "Generative Modelling of Medical Time Series.",
             name: "Simon Bing, ETH Zurich",

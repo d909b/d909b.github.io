@@ -1,0 +1,6 @@
+@article{mehrjou2021genedisco,
+  title={{GeneDisco: A Benchmark for Experimental Design in Drug Discovery}},
+  author={Arash Mehrjou, Ashkan Soleymani, Andrew Jesson, Pascal Notin, Yarin Gal, Stefan Bauer, Patrick Schwab},
+  journal={arXiv preprint arXiv:2110.11875},
+  year={2021}
+}
