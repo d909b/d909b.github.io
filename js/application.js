@@ -531,7 +531,7 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
-            title: "A whole-genome sequencing approach to advance precision medicine and study patient heterogeneity in ALS.",
+            title: "A whole-genome sequencing approach to advance precision medicine in ALS.",
             name: "Heather Marriott, King's College London",
             level: "PhD, with Prof. Al-Chalabi, King's College London",
             date: "2021 - ongoing"
