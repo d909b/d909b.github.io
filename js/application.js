@@ -71,7 +71,7 @@ app.controller('AppController', function($scope){
         },
         {
             title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
-            authors: "Saketh Sundar and Patrick Schwab and Jade Z.H. Tan and Santiago Romero-Brufau and Leo Anthony Celi and Dechen Wangmo and Nicolás Della Penna",
+            authors: "Saketh Sundar, Patrick Schwab, Jade Z.H. Tan, Santiago Romero-Brufau, Leo Anthony Celi, Dechen Wangmo, Nicolás Della Penna",
             year: "2021",
             venue: "medRxiv preprint",
             pdf: "https://www.medrxiv.org/content/10.1101/2021.11.06.21266007v1",
