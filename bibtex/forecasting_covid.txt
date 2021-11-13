@@ -1,0 +1,8 @@
+@article{sundar2021forecasting,
+	Title = {{Forecasting the COVID-19 Pandemic: Lessons learned and future directions}},
+	Author = {Sundar, Saketh and Schwab, Patrick and Tan, Jade Z.H. and Romero-Brufau, Santiago and Celi, Leo Anthony and Wangmo, Dechen and Penna, Nicolás Della},
+	DOI = {10.1101/2021.11.06.21266007},
+	Publisher = {medRxiv},
+	Year = {2021},
+	URL = {https://doi.org/10.1101/2021.11.06.21266007},
+}

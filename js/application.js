@@ -70,6 +70,16 @@ app.controller('AppController', function($scope){
             notable: ""
         },
         {
+            title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
+            authors: "Saketh Sundar and Patrick Schwab and Jade Z.H. Tan and Santiago Romero-Brufau and Leo Anthony Celi and Dechen Wangmo and Nicolás Della Penna",
+            year: "2021",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2110.11875",
+            bibtex: "http://schwabpatrick.com/bibtex/forecasting_covid.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Diabetes detection from whole-body magnetic resonance imaging using deep learning.",
             authors: "Benedikt Dietz, Jürgen Machann, Vaibhav Agrawal, Martin Heni, Patrick Schwab, Julia Dienes, Steffen Reichert, Andreas L. Birkenfeld, Hans-Ulrich Häring, Fritz Schick, Norbert Stefan, Andreas Fritsche, Hubert Preissl, Bernhard Schölkopf, Stefan Bauer, Robert Wagner",
             year: "2021",
