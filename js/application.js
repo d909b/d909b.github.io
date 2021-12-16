@@ -541,6 +541,12 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
+            title: "Probabilistic deep learning for drug discovery and respiratory disease understanding.",
+            name: "Pascal Notin, University of Oxford",
+            level: "PhD, with Prof. Gal, University of Oxford",
+            date: "2021 - ongoing"
+        },
+        {
             title: "A whole-genome sequencing approach to advance precision medicine in ALS.",
             name: "Heather Marriott, King's College London",
             level: "PhD, with Prof. Al-Chalabi, King's College London",
