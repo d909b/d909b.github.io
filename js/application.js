@@ -319,6 +319,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Announcing the 'Machine Learning for Drug Discovery' workshop at ICLR-22. Featuring a stellar lineup of speakers, a ML for Drug Discovery challenge and a call for community contributions.",
+            date: "2021-01-17",
+            link: "https://www.mldd-workshop.org/"
+        },
+        {
             title: "We released a new preprint on benchmarking active learning for drug discovery with genetic interventions on arXiv.",
             date: "2021-10-25",
             link: "https://arxiv.org/abs/2110.11875"
