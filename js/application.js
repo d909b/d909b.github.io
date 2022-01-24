@@ -352,7 +352,7 @@ app.controller('AppController', function($scope){
             title: "Our new study on using deep learning and whole-body Magnetic Resonance Imaging (MRI) to detect diabetes and pre-diabetes was published in JCI Insight.",
             date: "2021-09-30",
             link: "https://insight.jci.org/articles/view/146999/version/1"
-        },
+        }/*,
         {
             title: "We released a new preprint on neural causal structure discovery with active targeting and differentiable causal models.",
             date: "2021-09-07",
@@ -561,7 +561,7 @@ app.controller('AppController', function($scope){
             title: "I presented our research project on personalised management of low back pain at the kick-off event of the Swiss National Research Program 75 'Big Data' in Berne, Switzerland.",
             link: "http://www.nfp75.ch/en/Pages/Home.aspx",
             date: "2017-05-09"
-        }
+        }*/
     ];
 
     $scope.supervision = [
