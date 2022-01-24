@@ -1,0 +1,6 @@
+@article{bing2022conditionalehr,
+  title={{GeneDisco: A Benchmark for Experimental Design in Drug Discovery}},
+  author={Bing, Simon and Dittadi, Andrea and Bauer, Stefan and Schwab, Patrick},
+  journal={arXiv preprint arXiv:2110.11875},
+  year={2021}
+}

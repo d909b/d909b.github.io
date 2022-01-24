@@ -60,14 +60,24 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Conditional Generation of Medical Time Series for Extrapolation to Underrepresented Populations.",
+            authors: "Simon Bing, Andrea Dittadi, Stefan Bauer, Patrick Schwab",
+            year: "2022",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2201.08186",
+            bibtex: "http://schwabpatrick.com/bibtex/conditional_ehr.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "GeneDisco: A Benchmark for Experimental Design in Drug Discovery.",
             authors: "Arash Mehrjou, Ashkan Soleymani, Andrew Jesson, Pascal Notin, Yarin Gal, Stefan Bauer, Patrick Schwab",
-            year: "2021",
-            venue: "arXiv preprint",
+            year: "2022",
+            venue: "International Conference on Learning Representations (ICLR)",
             pdf: "https://arxiv.org/abs/2110.11875",
             bibtex: "http://schwabpatrick.com/bibtex/genedisco.txt",
             image: "",
-            notable: ""
+            notable: "To appear"
         },
         {
             title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
@@ -319,8 +329,18 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "The GeneDisco benchmark for experimental discovery in early stage drug target validation with genetic interventions was accepted for publication at the International Conference for Learning Representations (ICLR-22).",
+            date: "2022-01-22",
+            link: "https://arxiv.org/abs/2110.11875"
+        },
+        {
+            title: "We released a new preprint on conditionally generating realistic synthetic electronic health record data.",
+            date: "2022-01-21",
+            link: "https://arxiv.org/abs/2201.08186"
+        },
+        {
             title: "Announcing the 'Machine Learning for Drug Discovery' workshop at ICLR-22. Featuring a stellar lineup of speakers, a ML for Drug Discovery challenge and a call for community contributions.",
-            date: "2021-01-17",
+            date: "2022-01-17",
             link: "https://www.mldd-workshop.org/"
         },
         {
