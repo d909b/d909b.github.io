@@ -76,6 +76,7 @@ app.controller('AppController', function($scope){
             venue: "International Conference on Learning Representations (ICLR)",
             pdf: "https://arxiv.org/abs/2110.11875",
             bibtex: "http://schwabpatrick.com/bibtex/genedisco.txt",
+            poster: "http://schwabpatrick.com/posters/ICLR22_genedisco-poster1-5Apr2022.pdf",
             image: "",
             notable: "To appear"
         },
