@@ -63,7 +63,7 @@ app.controller('AppController', function($scope){
             title: "Conditional Generation of Medical Time Series for Extrapolation to Underrepresented Populations.",
             authors: "Simon Bing, Andrea Dittadi, Stefan Bauer, Patrick Schwab",
             year: "2022",
-            venue: "arXiv preprint",
+            venue: "PLOS Digital Health",
             pdf: "https://arxiv.org/abs/2201.08186",
             bibtex: "http://schwabpatrick.com/bibtex/conditional_ehr.txt",
             image: "",
@@ -78,7 +78,7 @@ app.controller('AppController', function($scope){
             bibtex: "http://schwabpatrick.com/bibtex/genedisco.txt",
             poster: "http://schwabpatrick.com/posters/ICLR22_genedisco-poster1-5Apr2022.pdf",
             image: "",
-            notable: "To appear"
+            notable: ""
         },
         {
             title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
