@@ -60,6 +60,16 @@ app.filter('highlight', function($sce) {
 app.controller('AppController', function($scope){
     $scope.publications = [
         {
+            title: "Federated Learning in Multi-Center Critical Care Research: A Systematic Case Study using the eICU Database.",
+            authors: "Arash Mehrjou, Ashkan Soleymani, Annika Buchholz, Jürgen Hetzel, Patrick Schwab, Stefan Bauer",
+            year: "2022",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2204.09328",
+            bibtex: "http://schwabpatrick.com/bibtex/fedicu.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Conditional Generation of Medical Time Series for Extrapolation to Underrepresented Populations.",
             authors: "Simon Bing, Andrea Dittadi, Stefan Bauer, Patrick Schwab",
             year: "2022",
