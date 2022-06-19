@@ -577,6 +577,12 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
+            title: "tbd.",
+            name: "Alexander Norcliffe, University of Cambridge",
+            level: "PhD, with Prof. van der Schaar, Pietro Lio and Andres Floto, University of Cambridge",
+            date: "2022 - ongoing"
+        },
+        {
             title: "Probabilistic deep learning for drug discovery and respiratory disease understanding.",
             name: "Pascal Notin, University of Oxford",
             level: "PhD, with Prof. Gal, University of Oxford",
