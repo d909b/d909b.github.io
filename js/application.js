@@ -59,13 +59,14 @@ app.filter('highlight', function($sce) {
 
 app.controller('AppController', function($scope){
     $scope.publications = [
+        // Global healthcare fairness: We should be sharing more, not less, data
         {
-            title: "Federated Learning in Multi-Center Critical Care Research: A Systematic Case Study using the eICU Database.",
-            authors: "Arash Mehrjou, Ashkan Soleymani, Annika Buchholz, Jürgen Hetzel, Patrick Schwab, Stefan Bauer",
+            title: "Global healthcare fairness: We should be sharing more, not less, data.",
+            authors: "Kenneth P. Seastedt, Patrick Schwab, Zachary O’Brien, Edith Wakida, Karen Herrera, Portia Grace F. Marcelo, Louis Agha-Mir-Salim, Xavier Borrat Frigola, Emily Boardman Ndulue, Alvin Marcelo, Leo Anthony Celi",
             year: "2022",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/abs/2204.09328",
-            bibtex: "http://schwabpatrick.com/bibtex/fedicu.txt",
+            venue: "PLOS Digital Health",
+            pdf: "",
+            bibtex: "http://schwabpatrick.com/bibtex/global_healthcare_fairness.txt",
             image: "",
             notable: ""
         },

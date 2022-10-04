@@ -1,0 +1,6 @@
+@article{seastedt2022globalfairness,
+  title={{Global healthcare fairness: We should be sharing more, not less, data}},
+  author={Seastedt, Kenneth P. and Schwab, Patrick and O’Brien, Zachary and Wakida, Edith and  Herrera, Karen and Marcelo, Portia G. F. and Agha-Mir-Salim, Louis and Borrat Frigola, Xavier and Boardman Ndulue, Emily and Marcelo, Alvin and Celi, Leo A},
+  journal={PLOS Digital Health},
+  year={2022}
+}

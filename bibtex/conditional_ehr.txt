@@ -1,6 +1,6 @@
 @article{bing2022conditionalehr,
-  title={{GeneDisco: A Benchmark for Experimental Design in Drug Discovery}},
+  title={{Conditional Generation of Medical Time Series for Extrapolation to Underrepresented Populations}},
   author={Bing, Simon and Dittadi, Andrea and Bauer, Stefan and Schwab, Patrick},
-  journal={arXiv preprint arXiv:2110.11875},
-  year={2021}
+  journal={PLOS Digital Health},
+  year={2022}
 }
