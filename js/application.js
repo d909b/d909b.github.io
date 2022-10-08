@@ -65,7 +65,7 @@ app.controller('AppController', function($scope){
             authors: "Kenneth P. Seastedt, Patrick Schwab, Zachary O’Brien, Edith Wakida, Karen Herrera, Portia Grace F. Marcelo, Louis Agha-Mir-Salim, Xavier Borrat Frigola, Emily Boardman Ndulue, Alvin Marcelo, Leo Anthony Celi",
             year: "2022",
             venue: "PLOS Digital Health",
-            pdf: "",
+            pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000102",
             bibtex: "http://schwabpatrick.com/bibtex/global_healthcare_fairness.txt",
             image: "",
             notable: ""
@@ -341,6 +341,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our work with Prof. Leo Celi on assessing the re-identification risk of sharing open health data was featured by MIT News.",
+            date: "2022-10-08",
+            link: "https://news.mit.edu/2022/patient-data-risks-low-1006"
+        },
+        {
             title: "The GeneDisco benchmark for experimental discovery in early stage drug target validation with genetic interventions was accepted for publication at the International Conference for Learning Representations (ICLR-22).",
             date: "2022-01-22",
             link: "https://arxiv.org/abs/2110.11875"
@@ -360,11 +365,11 @@ app.controller('AppController', function($scope){
             date: "2021-10-25",
             link: "https://arxiv.org/abs/2110.11875"
         },
-        {
+        /*{
             title: "Our new study on using deep learning and whole-body Magnetic Resonance Imaging (MRI) to detect diabetes and pre-diabetes was published in JCI Insight.",
             date: "2021-09-30",
             link: "https://insight.jci.org/articles/view/146999/version/1"
-        }/*,
+        },
         {
             title: "We released a new preprint on neural causal structure discovery with active targeting and differentiable causal models.",
             date: "2021-09-07",
@@ -578,7 +583,7 @@ app.controller('AppController', function($scope){
 
     $scope.supervision = [
         {
-            title: "tbd.",
+            title: "Deep Feature Selection.",
             name: "Alexander Norcliffe, University of Cambridge",
             level: "PhD, with Prof. van der Schaar, Pietro Lio and Andres Floto, University of Cambridge",
             date: "2022 - ongoing"
@@ -695,6 +700,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.media_coverage = [
+        {
+            title: "Study finds the risks of sharing health care data are low",
+            venue: "MIT News",
+            date: "Oct, 2022",
+            link: "https://news.mit.edu/2022/patient-data-risks-low-1006"
+        },
         {
             title: "Artificial intelligence as a Corona warning system",
             venue: "taz",
