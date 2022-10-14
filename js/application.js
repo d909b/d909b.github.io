@@ -66,7 +66,7 @@ app.controller('AppController', function($scope){
             year: "2022",
             venue: "PLOS Digital Health",
             pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000102",
-            bibtex: "http://schwabpatrick.com/bibtex/global_healthcare_fairness.txt",
+            bibtex: "http://schwabpatrick.com/bibtex/global_health_fairness.txt",
             image: "",
             notable: ""
         },
