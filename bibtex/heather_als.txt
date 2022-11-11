@@ -1,0 +1,11 @@
+@article {Marriott2022.11.03.22281905,
+	author = {Marriott, Heather and Spargo, Thomas P. and Khleifat, Ahmad Al and Fogh, Isabella and , and Andersen, Peter M and Ba{\c s}ak, Nazli A. and Cooper-Knock, Johnathan and Corcia, Philippe and Couratier, Philippe and de Carvalho, Mamede and Drory, Vivian and Glass, Jonathan D. and Gotkine, Marc and Hardiman, Orla and Landers, John E. and McLaughlin, Russell and Mora Pardina, Jes{\'u}s S. and Morrison, Karen E. and Pinto, Susana and Povedano, Monica and Shaw, Christopher E. and Shaw, Pamela J. and Silani, Vincenzo and Ticozzi, Nicola and van Damme, Philip and van den Berg, Leonard H. and Vourc{\textquoteright}h, Patrick and Weber, Markus and Veldink, Jan H. and Dobson, Richard J. and Schwab, Patrick and Al-Chalabi, Ammar and Iacoangeli, Alfredo},
+	title = {Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis},
+	elocation-id = {2022.11.03.22281905},
+	year = {2022},
+	doi = {10.1101/2022.11.03.22281905},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	URL = {https://www.medrxiv.org/content/early/2022/11/05/2022.11.03.22281905},
+	eprint = {https://www.medrxiv.org/content/early/2022/11/05/2022.11.03.22281905.full.pdf},
+	journal = {medRxiv}
+}

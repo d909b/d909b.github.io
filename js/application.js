@@ -61,6 +61,46 @@ app.controller('AppController', function($scope){
     $scope.publications = [
         // Global healthcare fairness: We should be sharing more, not less, data
         {
+            title: "CausalBench: A Large-scale Benchmark for Network Inference from Single-cell Perturbation Data.",
+            authors: "Mathieu Chevalley, Yusuf Roohani, Arash Mehrjou, Jure Leskovec, Patrick Schwab",
+            year: "2022",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2210.17283",
+            bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
+            image: "",
+            notable: ""
+        },
+        {
+            title: "DiscoBAX: Discovery of Optimal Intervention Sets in Genomic Experiment Design.",
+            authors: "Clare Lyle, Arash Mehrjou, Pascal Notin, Andrew Jesson, Stefan Bauer, Yarin Gal, Patrick Schwab",
+            year: "2022",
+            venue: "in submission",
+            pdf: "https://openreview.net/forum?id=mBkUeW8rpD6",
+            bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
+            image: "",
+            notable: ""
+        },
+        {
+            title: "Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis.",
+            authors: "Heather Marriott, Thomas P. Spargo, Ahmad Al Khleifat, Isabella Fogh, Project MinE ALS Sequencing Consortium, Peter M Andersen, Nazli A. Başak, Johnathan Cooper-Knock, Philippe Corcia, Philippe Couratier, Mamede de Carvalho, Vivian Drory, Jonathan D. Glass, Marc Gotkine, Orla Hardiman, John E. Landers, Russell McLaughlin, Jesús S. Mora Pardina, Karen E. Morrison, Susana Pinto, Monica Povedano, Christopher E. Shaw, Pamela J. Shaw, Vincenzo Silani, Nicola Ticozzi, Philip van Damme, Leonard H. van den Berg, Patrick Vourc’h, Markus Weber, Jan H. Veldink, Richard J. Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
+            year: "2022",
+            venue: "medRxiv preprint",
+            pdf: "https://www.medrxiv.org/content/10.1101/2022.11.03.22281905",
+            bibtex: "http://schwabpatrick.com/bibtex/heather_als.txt",
+            image: "",
+            notable: ""
+        },
+        {
+            title: "FED-CD: Federated Causal Discovery from Interventional and Observational Data.",
+            authors: "Amin Abyaneh, Nino Scherrer, Patrick Schwab, Stefan Bauer, Bernhard Schölkopf, Arash Mehrjou",
+            year: "2022",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2211.03846",
+            bibtex: "http://schwabpatrick.com/bibtex/fed_cd.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Global healthcare fairness: We should be sharing more, not less, data.",
             authors: "Kenneth P. Seastedt, Patrick Schwab, Zachary O’Brien, Edith Wakida, Karen Herrera, Portia Grace F. Marcelo, Louis Agha-Mir-Salim, Xavier Borrat Frigola, Emily Boardman Ndulue, Alvin Marcelo, Leo Anthony Celi",
             year: "2022",
