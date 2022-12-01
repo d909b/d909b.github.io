@@ -69,7 +69,7 @@ h2[id] {
 .documentation .property-list {
     list-style:none;
     margin-left:0;
-    & > li { 
+    & > li {
         list-style-type: none;
     }
 }
@@ -77,7 +77,7 @@ h2[id] {
 .documentation-sidebar {
     list-style:none;
     margin-left:0;
-    & > li { 
+    & > li {
         list-style-type: none;
         font-weight: 400;
         margin-bottom: 4px;
@@ -162,7 +162,7 @@ p .fa {
     padding: 0;
 }
 
-.tutorial-list > li { 
+.tutorial-list > li {
     list-style-type: none;
     margin: 5px 0;
     &:before {
@@ -207,7 +207,7 @@ p .fa {
  * Site header
  */
 .site-header {
-    border-bottom: $headerBorderHeight solid $primaryColor;
+    border-bottom: $headerBorderHeight solid $grey-color-dark;
     height: $headerHeight;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -229,7 +229,7 @@ p .fa {
 }
 
 .site-title {
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: $headerHeight - $headerBorderHeight;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -310,7 +310,10 @@ p .fa {
 }
 
 .image-about-me {
-    max-width: 200px;
+    //max-width: 200px;
+    object-fit: cover;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     float: right;
     margin-top: 72px;
@@ -381,6 +384,24 @@ p .fa {
     background-color: $primaryColorDarker;
 }
 
+.float-right {
+    float: right;
+}
+
+.link-icon-list .fa {
+    margin-top: 1em;
+    font-size:1.5em;
+    color: black;
+}
+
+.link-icon-list-icon {
+    margin-right: 1.0em;
+}
+
+.jumbotron {
+    background-color: #e8ecf7;
+}
+
 .home .jumbotron button {
     display: block;
     margin-top: 38px;
@@ -404,6 +425,20 @@ p .fa {
 
 .site-title > .highlight {
     color: $primaryColor;
+}
+
+.site-nav-item {
+    margin-left: 2em;
+    line-height: $headerHeight;
+    letter-spacing: -1px;
+    font-size: 1.15em;
+    margin-bottom: 0;
+    color: black;
+    font-family: 'open_sansregular';
+}
+
+.landing-research-areas {
+    font-size:0.85em;
 }
 
 @include media-query($content-width) {
@@ -451,7 +486,7 @@ p .fa {
     }
 
     .page-link {
-        text-transform: uppercase;  
+        text-transform: uppercase;
         color: $text-color;
         line-height: $base-line-height;
         font-size: 16px;
