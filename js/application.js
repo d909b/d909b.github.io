@@ -68,7 +68,7 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/abs/2210.17283",
             bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
             image: "",
-            notable: ""
+            notable: "",
             code: "https://github.com/causalbench/causalbench",
         },
         {
