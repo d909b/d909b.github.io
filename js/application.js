@@ -69,6 +69,7 @@ app.controller('AppController', function($scope){
             bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
             image: "",
             notable: ""
+            code: "https://github.com/causalbench/causalbench",
         },
         {
             title: "DiscoBAX: Discovery of Optimal Intervention Sets in Genomic Experiment Design.",
@@ -118,7 +119,8 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/abs/2201.08186",
             bibtex: "http://schwabpatrick.com/bibtex/conditional_ehr.txt",
             image: "",
-            notable: ""
+            notable: "",
+            code: "https://github.com/simonbing/HealthGen"
         },
         {
             title: "GeneDisco: A Benchmark for Experimental Design in Drug Discovery.",
@@ -129,7 +131,8 @@ app.controller('AppController', function($scope){
             bibtex: "http://schwabpatrick.com/bibtex/genedisco.txt",
             poster: "http://schwabpatrick.com/posters/ICLR22_genedisco-poster1-5Apr2022.pdf",
             image: "",
-            notable: ""
+            notable: "",
+            code: "https://github.com/genedisco/genedisco",
         },
         {
             title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
@@ -189,7 +192,8 @@ app.controller('AppController', function($scope){
             pdf: "https://www.nature.com/articles/s41467-020-20816-7",
             bibtex: "http://schwabpatrick.com/bibtex/covews.txt",
             image: "",
-            notable: ""
+            notable: "",
+            code: "https://github.com/d909b/CovEWS"
         },
         {
             title: "Overcoming Barriers to Data Sharing with Medical Image Generation: A Comprehensive Evaluation.",
@@ -199,7 +203,8 @@ app.controller('AppController', function($scope){
             pdf: "https://www.nature.com/articles/s41746-021-00507-3",
             bibtex: "http://schwabpatrick.com/bibtex/overcomingbarriers.txt",
             image: "",
-            notable: ""
+            notable: "",
+            code: "https://github.com/AugustDS/synthetic-medical-benchmark"
         },
         {
             title: "Diurnal variations in multi-sensor wearable-derived sleep characteristics in morning-and evening-type shift workers under naturalistic conditions.",
