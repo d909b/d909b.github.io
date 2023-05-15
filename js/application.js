@@ -73,8 +73,8 @@ app.controller('AppController', function($scope){
         {
             title: "DiscoBAX: Discovery of Optimal Intervention Sets in Genomic Experiment Design.",
             authors: "Clare Lyle, Arash Mehrjou, Pascal Notin, Andrew Jesson, Stefan Bauer, Yarin Gal, Patrick Schwab",
-            year: "2022",
-            venue: "in submission",
+            year: "2023",
+            venue: "International Conference on Machine Learning (ICML)",
             pdf: "https://openreview.net/forum?id=mBkUeW8rpD6",
             bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
             image: "",
