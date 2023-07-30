@@ -69,6 +69,7 @@ app.controller('AppController', function($scope){
             bibtex: "http://schwabpatrick.com/bibtex/image2omics.txt",
             image: "",
             notable: "",
+            twitter: "https://twitter.com/schwabpa/status/1675768905208299521?s=20",
             code: "https://github.com/GSK-AI/image2omics",
             blog: "https://www.gsk.ai/blogs/image2omics-deep-learning-to-predict-multi-omics-measurements-from-cell-images/"
         },
@@ -136,7 +137,8 @@ app.controller('AppController', function($scope){
             pdf: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000102",
             bibtex: "http://schwabpatrick.com/bibtex/global_health_fairness.txt",
             image: "",
-            notable: ""
+            notable: "",
+            twitter: "https://twitter.com/schwabpa/status/1578671679483838466?s=20",
         },
         {
             title: "Conditional Generation of Medical Time Series for Extrapolation to Underrepresented Populations.",
