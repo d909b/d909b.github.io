@@ -1,0 +1,9 @@
+@article{meinke2023addressing,
+  title={Addressing the unresolved challenge of quantifying skiing exposure—A proof of concept using smartphone sensors},
+  author={Meinke, Anita and Sp{\"o}rri, J{\"o}rg and Brogli, Luzius and Schwab, Patrick and Karlen, Walter},
+  journal={Frontiers in sports and active living},
+  volume={5},
+  pages={1157987},
+  year={2023},
+  publisher={Frontiers}
+}

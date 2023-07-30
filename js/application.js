@@ -61,6 +61,40 @@ app.controller('AppController', function($scope){
     $scope.publications = [
         // Global healthcare fairness: We should be sharing more, not less, data
         {
+            title: "Multi-omics Prediction from High-content Cellular Imaging with Deep Learning.",
+            authors: "Rahil Mehrizi, Arash Mehrjou, Maryana Alegro, Yi Zhao, Benedetta Carbone, Carl Fishwick, Johanna Vappiani, Jing Bi, Siobhan Sanford, Hakan Keles, Marcus Bantscheff, Cuong Nguyen, Patrick Schwab",
+            year: "2023",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2306.09391",
+            bibtex: "http://schwabpatrick.com/bibtex/image2omics.txt",
+            image: "",
+            notable: "",
+            code: "https://github.com/GSK-AI/image2omics",
+            blog: "https://www.gsk.ai/blogs/image2omics-deep-learning-to-predict-multi-omics-measurements-from-cell-images/"
+        },
+        {
+            title: "DiscoBAX: Discovery of Optimal Intervention Sets in Genomic Experiment Design.",
+            authors: "Clare Lyle, Arash Mehrjou, Pascal Notin, Andrew Jesson, Stefan Bauer, Yarin Gal, Patrick Schwab",
+            year: "2023",
+            venue: "International Conference on Machine Learning (ICML)",
+            pdf: "https://proceedings.mlr.press/v202/lyle23a.html",
+            bibtex: "http://schwabpatrick.com/bibtex/discobax.txt",
+            image: "",
+            notable: "",
+            poster: "http://schwabpatrick.com/posters/ICML23-DiscoBAX-26Jul23.pdf",
+            blog: "https://www.gsk.ai/blogs/discobax-discovery-of-optimal-intervention-sets-in-genomic-experiment-design/"
+        },
+        {
+            title: "Addressing the unresolved challenge of quantifying skiing exposure–a proof of concept using smartphone sensors.",
+            authors: "Anita Meinke, Jörg Spörri, Luzius Brogli, Patrick Schwab, Walter Karlen",
+            year: "2023",
+            venue: "Frontiers in Sports and Active Living",
+            pdf: "https://www.frontiersin.org/articles/10.3389/fspor.2023.1157987/full",
+            bibtex: "http://schwabpatrick.com/bibtex/skiexposure.txt",
+            image: "",
+            notable: "",
+        },
+        {
             title: "CausalBench: A Large-scale Benchmark for Network Inference from Single-cell Perturbation Data.",
             authors: "Mathieu Chevalley, Yusuf Roohani, Arash Mehrjou, Jure Leskovec, Patrick Schwab",
             year: "2022",
@@ -70,16 +104,8 @@ app.controller('AppController', function($scope){
             image: "",
             notable: "",
             code: "https://github.com/causalbench/causalbench",
-        },
-        {
-            title: "DiscoBAX: Discovery of Optimal Intervention Sets in Genomic Experiment Design.",
-            authors: "Clare Lyle, Arash Mehrjou, Pascal Notin, Andrew Jesson, Stefan Bauer, Yarin Gal, Patrick Schwab",
-            year: "2023",
-            venue: "International Conference on Machine Learning (ICML)",
-            pdf: "https://openreview.net/forum?id=mBkUeW8rpD6",
-            bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
-            image: "",
-            notable: ""
+            challenge: "https://www.gsk.ai/causalbench-challenge/",
+            blog: "https://www.gsk.ai/publications/causalbench-a-large-scale-benchmark-for-network-inference-from-single-cell-perturbation-data/"
         },
         {
             title: "Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis.",
@@ -99,7 +125,8 @@ app.controller('AppController', function($scope){
             pdf: "https://arxiv.org/abs/2211.03846",
             bibtex: "http://schwabpatrick.com/bibtex/fed_cd.txt",
             image: "",
-            notable: ""
+            notable: "",
+            blog: "https://www.gsk.ai/publications/fed-cd-federated-causal-discovery-from-interventional-and-observational-data/",
         },
         {
             title: "Global healthcare fairness: We should be sharing more, not less, data.",
@@ -133,6 +160,17 @@ app.controller('AppController', function($scope){
             image: "",
             notable: "",
             code: "https://github.com/genedisco/genedisco",
+            challenge: "https://www.gsk.ai/genedisco-challenge/",
+        },
+        {
+            title: "Federated Learning in Multi-Center Critical Care Research: A Systematic Case Study using the eICU Database.",
+            authors: "Arash Mehrjou, Ashkan Soleymani, Annika Buchholz, Jürgen Hetzel, Patrick Schwab, Stefan Bauer",
+            year: "2022",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2204.09328",
+            bibtex: "http://schwabpatrick.com/bibtex/fed_icu.txt",
+            image: "",
+            notable: "",
         },
         {
             title: "Forecasting the COVID-19 Pandemic: Lessons learned and future directions.",
@@ -386,6 +424,11 @@ app.controller('AppController', function($scope){
 
     $scope.news = [
         {
+            title: "Our work on DiscoBAX for the optimal selection of intervention sets in genetic experiments was presented at ICML 2023 in Honululu, Hawaii.",
+            date: "2023-07-28",
+            link: "https://proceedings.mlr.press/v202/lyle23a.html"
+        },
+        {
             title: "Our work with Prof. Leo Celi on assessing the re-identification risk of sharing open health data was featured by MIT News.",
             date: "2022-10-08",
             link: "https://news.mit.edu/2022/patient-data-risks-low-1006"
@@ -405,12 +448,13 @@ app.controller('AppController', function($scope){
             date: "2022-01-17",
             link: "https://www.mldd-workshop.org/"
         },
+        /*
         {
             title: "We released a new preprint on benchmarking active learning for drug discovery with genetic interventions on arXiv.",
             date: "2021-10-25",
             link: "https://arxiv.org/abs/2110.11875"
         },
-        /*{
+        {
             title: "Our new study on using deep learning and whole-body Magnetic Resonance Imaging (MRI) to detect diabetes and pre-diabetes was published in JCI Insight.",
             date: "2021-09-30",
             link: "https://insight.jci.org/articles/view/146999/version/1"

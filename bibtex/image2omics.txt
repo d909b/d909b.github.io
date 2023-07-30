@@ -1,0 +1,8 @@
+@misc{mehrizi2023multiomics,
+      title={Multi-omics Prediction from High-content Cellular Imaging with Deep Learning},
+      author={Rahil Mehrizi and Arash Mehrjou and Maryana Alegro and Yi Zhao and Benedetta Carbone and Carl Fishwick and Johanna Vappiani and Jing Bi and Siobhan Sanford and Hakan Keles and Marcus Bantscheff and Cuong Nguyen and Patrick Schwab},
+      year={2023},
+      eprint={2306.09391},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.QM}
+}
