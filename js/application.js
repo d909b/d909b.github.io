@@ -429,6 +429,11 @@ app.controller('AppController', function($scope){
             link: "https://proceedings.mlr.press/v202/lyle23a.html"
         },
         {
+            title: "Our work on characterising Hepatitis B subtypes based on high dimensional patient data has been features by STAT News.",
+            date: "2023-07-13",
+            link: "http://schwabpatrick.com/img/stat_hepatitis_b.png"
+        },
+        {
             title: "Our work with Prof. Leo Celi on assessing the re-identification risk of sharing open health data was featured by MIT News.",
             date: "2022-10-08",
             link: "https://news.mit.edu/2022/patient-data-risks-low-1006"
@@ -789,6 +794,12 @@ app.controller('AppController', function($scope){
     ];
 
     $scope.media_coverage = [
+        {
+            title: "GSK researchers use ML to identify hepatitis B subgroups",
+            venue: "STAT News",
+            date: "Jul, 2023",
+            link: "http://schwabpatrick.com/img/stat_hepatitis_b.png"
+        },
         {
             title: "Study finds the risks of sharing health care data are low",
             venue: "MIT News",
