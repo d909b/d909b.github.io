@@ -1,0 +1,14 @@
+<li class="postitem-class container">
+    <a href="{{ post.url }}" class="link-no-color">
+        <div class="col-md-12" style="padding:0">
+            <img class="postitem-image center-cropped" src="{{ post.image }}"/>
+        </div>
+
+        <div class="col-md-12 postitem-metadata">
+            <h2 class="postitem-title" id="{a{ post.title }a}">{a{ post.title }a}</h2>
+            <span class="postitem-date">{{ post.date  | date:'longDate' }}</span>
+
+            <h4 class="postitem-subtitle" id="{a{ post.subtitle }a}">{a{ post.subtitle }a}</h4>
+        </div>
+    </a>
+</li>

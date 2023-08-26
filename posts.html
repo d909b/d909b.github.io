@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+    <div class="jumbotron">
+      <div class="container" style="padding:0">
+        <div class="col-md-12" style="padding:0">
+          <div class="container" style="margin-bottom:12px">
+              <p>Join me on an exciting journey of understanding the world of biology and medicine using AI and machine learning.</p>
+              <p>I cover the co-evolution of medicine, biology, drug development and machine learning - including science, community and technological progress. Lets understand the mysteries of life - one model training run at a time!</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row" ng-if="posts">
+      <ul class="posts-list">
+        <postitem class="postitem-item" ng-repeat="post in posts"></postitem>
+      </ul>
+    </div>
+  </div>
+</div>

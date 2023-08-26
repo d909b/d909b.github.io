@@ -1,0 +1,13 @@
+<div class="postteaser-class">
+    <div class="postteaser-box">
+        <a href="{{ post.url }}" class="link-no-color">
+            <div class="col-md-12" style="padding:0">
+                <img class="postteaser-image center-cropped" src="{{ post.image }}"/>
+            </div>
+            <div class="postteaser-metadata">
+                <div class="postteaser-title">{{ post.title }}</div>
+                <div class="postteaser-subtitle">{{ post.date  | date:'longDate' }}</div>
+            </div>
+        </a>
+    </div>
+</div>

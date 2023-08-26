@@ -38,6 +38,14 @@ layout: default
   </div>
   <div class="container">
     <div class="row">
+      <h1 class="whyText">Recent articles</h1>
+    </div>
+
+    <div class="row incentiveRow">
+      <postteaser class="col-md-3 incentiveBoxOuter" ng-repeat="post in posts|limitTo:4"/>
+    </div>
+
+    <div class="row">
       <h1 class="whyText">News</h1>
     </div>
 
@@ -45,36 +53,6 @@ layout: default
       <ul class="news-list" ng-repeat="news in news">
         <news news="news"></news>
       </ul>
-    </div>
-
-    <div class="row">
-      <h1 class="whyText">Current Research</h1>
-    </div>
-
-    <div class="row incentiveRow">
-      <div class="col-md-4 incentiveBoxOuter">
-        <div class="incentiveBox">
-          <div class="incentiveIcon fa fa-heart"></div>
-          <div class="incentiveHeader">Machine Learning in Health Care</div>
-          <div class="incentiveText"></div>
-        </div>
-      </div>
-
-      <div class="col-md-4 incentiveBoxOuter">
-        <div class="incentiveBox">
-          <div class="incentiveIcon fa fa-eye"></div>
-          <div class="incentiveHeader">Causality and Machine Learning</div>
-          <div class="incentiveText"></div>
-        </div>
-      </div>
-
-      <div class="col-md-4 incentiveBoxOuter">
-        <div class="incentiveBox">
-          <div class="incentiveIcon fa fa-database"></div>
-          <div class="incentiveHeader">Learning from High-dimensional Data</div>
-          <div class="incentiveText"></div>
-        </div>
-      </div>
     </div>
 
     <div class="row">

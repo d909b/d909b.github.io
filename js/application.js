@@ -7,6 +7,44 @@ angular.module('components', [])
                       templateUrl: "/ng-templates/publication.html"
                     };
                   })
+       .directive('gallery',
+                  function() {
+                    return {
+                      restrict: 'E',
+                      templateUrl: "/ng-templates/gallery.html",
+                        transclude: true
+                    };
+                  })
+       .directive('galleryitem',
+                  function() {
+                    return {
+                      restrict: 'E',
+                        scope: {
+                          src: "@",
+                          desc: "@"
+                        },
+                      templateUrl: "/ng-templates/galleryitem.html",
+                      link: function(scope, element, attr) {
+                        element.on('click', function(event){
+                              popup.open($(this));
+                        });
+                      },
+                    };
+                  })
+       .directive('postitem',
+                  function() {
+                    return {
+                      restrict: 'E',
+                      templateUrl: "/ng-templates/postitem.html"
+                    };
+                  })
+       .directive('postteaser',
+                  function() {
+                    return {
+                      restrict: 'E',
+                      templateUrl: "/ng-templates/postteaser.html"
+                    };
+                  })
        .directive('news',
                   function() {
                     return {
@@ -37,7 +75,24 @@ angular.module('components', [])
                   })
        .config(function($interpolateProvider){
     		$interpolateProvider.startSymbol('{a{').endSymbol('}a}');
-		});
+		})
+        .factory("posts", function ($http) {
+            return {
+                    getPosts: function () {
+                        return $http.get("/api/posts/list.json")
+                            .then(function (posts) {
+                                let all_posts = posts.data.map(function (post) {
+                                    /* Convert date into Date */
+                                    post.date = new Date(post.date);
+                                    /* Remove starting slash from URL */
+                                    post.url = post.url.replace(/^\//, "");
+                                    return post;
+                                });
+                                return all_posts;
+                            });
+                    }
+                };
+        });
 
 var app = angular.module('app', ['components'])
 
@@ -57,7 +112,10 @@ app.filter('highlight', function($sce) {
     };
 });
 
-app.controller('AppController', function($scope){
+app.controller('AppController', function($scope, posts){
+    posts.getPosts().then(function(posts) {
+        $scope.posts = posts;
+    });
     $scope.publications = [
         // Global healthcare fairness: We should be sharing more, not less, data
         {
