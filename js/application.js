@@ -7,6 +7,13 @@ angular.module('components', [])
                       templateUrl: "/ng-templates/publication.html"
                     };
                   })
+       .directive('toc',
+                  function() {
+                    return {
+                      restrict: 'E',
+                      templateUrl: "/ng-templates/toc.html"
+                    };
+                  })
        .directive('gallery',
                   function() {
                     return {

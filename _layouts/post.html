@@ -8,12 +8,51 @@ layout: default
 
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <a href="{{ page.twitter }}">[twitter thread]</a></p>
+        <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • {{ page.howlong }} read • <a href="{{ page.twitter }}">[twitter thread]</a></p>
         <span class="label label-info" ng-repeat="tag in page.tags">{{ tag }}</span>
     </header>
 
-    <article class="post-content">
+    <article class="post-content" id="main-content">
     {{ content }}
     </article>
 
+<!-- SOURCE: https://stackoverflow.com/a/41085566 (CC-BY) -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    htmlTableOfContents(document.getElementById("main-content"));
+} );
+
+function htmlTableOfContents( documentRef ) {
+    var toc = documentRef.querySelector("#toc");
+
+    var wrapper = document.createElement( "div" );
+    wrapper.setAttribute( "id", "toccontent" );
+    wrapper.setAttribute( "class", "collapse" );
+    toc.appendChild( wrapper );
+
+    var headings = [].slice.call(documentRef.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+    headings.forEach(function (heading, index) {
+        var ref = "toc" + index;
+
+        if (index === 0) {
+            // Skip TOC heading itself.
+            return;
+        }
+
+        if ( heading.hasAttribute( "id" ) ) {
+            ref = heading.getAttribute("id");
+        } else
+            heading.setAttribute( "id", ref );
+
+        var link = document.createElement( "a" );
+        link.setAttribute( "href", "#"+ ref );
+        link.textContent = heading.textContent;
+
+        var div = document.createElement( "div" );
+        div.setAttribute( "class", heading.tagName.toLowerCase() );
+        div.appendChild( link );
+        wrapper.appendChild( div );
+    });
+}
+</script>
 </div>

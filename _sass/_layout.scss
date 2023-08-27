@@ -785,6 +785,40 @@ $shadowSpread: 20px;
     font-size: 24px;
 }
 
+// Fixes anchors by offsetting by the navbar height.
+[id]::before {
+  content: '';
+  display: block;
+  height:      56px;
+  margin-top: -56px;
+  visibility: hidden;
+}
+
+#toc {
+    padding: 1em;
+    margin: 2em 0;
+    border: 1px solid #959595;
+    background-color: #f0f0f0;
+}
+
+#toc h3 {
+    margin: 0;
+    font-size: 17px;
+}
+
+#toc h3 a {
+    display: inline-block;
+    font-size: 16px;
+}
+
+#toc .h4 {
+    padding-left:1em;
+    font-size: 15px;
+}
+#toc .h5 {
+    padding-left:2em;
+    font-size: 14px;
+}
 
 /**
  * Posts

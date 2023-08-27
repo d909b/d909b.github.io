@@ -5,6 +5,7 @@
     {
         "title" : {{ post.title | jsonify }},
         "subtitle" : {{ post.subtitle | jsonify }},
+        "howlong" : {{ post.howlong | jsonify }},
         "category" : {{ post.category | jsonify }},
         "tags" : {{ post.tags | jsonify }},
         "url" : {{ post.url | prepend: site.baseurl | jsonify }},
