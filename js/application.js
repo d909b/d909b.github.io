@@ -151,6 +151,16 @@ app.controller('AppController', function($scope, posts){
             blog: "https://www.gsk.ai/blogs/discobax-discovery-of-optimal-intervention-sets-in-genomic-experiment-design/"
         },
         {
+            title: "Unsupervised machine learning identifies distinct molecular and phenotypic ALS subtypes in post-mortem motor cortex and blood expression data.",
+            authors: "Heather Marriott, Renata kabiljo, Guy P Hunt, Ahmad Al Khleifat, Ashley R Jones, Claire Troakes, Abigail Pfaff, John Quinn, Sulev Koks, Richard Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
+            year: "2023",
+            venue: "medRxiv preprint",
+            pdf: "https://www.medrxiv.org/content/10.1101/2023.04.21.23288942v1",
+            bibtex: "http://schwabpatrick.com/bibtex/heather_als2.txt",
+            image: "",
+            notable: ""
+        },
+        {
             title: "Addressing the unresolved challenge of quantifying skiing exposure–a proof of concept using smartphone sensors.",
             authors: "Anita Meinke, Jörg Spörri, Luzius Brogli, Patrick Schwab, Walter Karlen",
             year: "2023",
