@@ -501,6 +501,11 @@ app.controller('AppController', function($scope, posts){
 
     $scope.news = [
         {
+            title: "We co-organized the Machine Learning for Drug Discovery (MLDD) 2024 symposium in Vienna, Austria.",
+            date: "2024-05-11",
+            link: "https://schwabpatrick.com/2024/05/11/iclr2024.html"
+        },
+        {
             title: "Our work on DiscoBAX for the optimal selection of intervention sets in genetic experiments was presented at ICML 2023 in Honululu, Hawaii.",
             date: "2023-07-28",
             link: "https://proceedings.mlr.press/v202/lyle23a.html"
@@ -525,12 +530,12 @@ app.controller('AppController', function($scope, posts){
             date: "2022-01-21",
             link: "https://arxiv.org/abs/2201.08186"
         },
+        /*
         {
             title: "Announcing the 'Machine Learning for Drug Discovery' workshop at ICLR-22. Featuring a stellar lineup of speakers, a ML for Drug Discovery challenge and a call for community contributions.",
             date: "2022-01-17",
             link: "https://www.mldd-workshop.org/"
         },
-        /*
         {
             title: "We released a new preprint on benchmarking active learning for drug discovery with genetic interventions on arXiv.",
             date: "2021-10-25",
