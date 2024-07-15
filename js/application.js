@@ -126,6 +126,49 @@ app.controller('AppController', function($scope, posts){
     $scope.publications = [
         // Global healthcare fairness: We should be sharing more, not less, data
         {
+            title: "Deriving Causal Order from Single-Variable Interventions: Guarantees & Algorithm.",
+            authors: "Mathieu Chevalley, Patrick Schwab, Arash Mehrjou",
+            year: "2024",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2405.18314",
+            bibtex: "http://schwabpatrick.com/bibtex/intersort.txt",
+            image: "",
+            notable: "",
+            twitter: "https://x.com/schwabpa/status/1797961443578384883",
+            code: "https://github.com/MathieuChevalley/Intersort",
+            blog: "https://gsk.ai/blogs/intersort-deriving-causal-order-in-single-variable-interventional-data/"
+        },
+        {
+            title: "Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis.",
+            authors: "Heather Marriott, Thomas P. Spargo, Ahmad Al Khleifat, Isabella Fogh, Project MinE ALS Sequencing Consortium, Peter M Andersen, Nazli A. Başak, Johnathan Cooper-Knock, Philippe Corcia, Philippe Couratier, Mamede de Carvalho, Vivian Drory, Jonathan D. Glass, Marc Gotkine, Orla Hardiman, John E. Landers, Russell McLaughlin, Jesús S. Mora Pardina, Karen E. Morrison, Susana Pinto, Monica Povedano, Christopher E. Shaw, Pamela J. Shaw, Vincenzo Silani, Nicola Ticozzi, Philip van Damme, Leonard H. van den Berg, Patrick Vourc’h, Markus Weber, Jan H. Veldink, Richard J. Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
+            year: "2024",
+            venue: "Annals of clinical and translational neurology\t",
+            pdf: "https://www.medrxiv.org/content/10.1101/2022.11.03.22281905",
+            bibtex: "http://schwabpatrick.com/bibtex/heather_als.txt",
+            image: "",
+            notable: ""
+        },
+        {
+            title: "Sample Selection Bias in Machine Learning for Healthcare.",
+            authors: "Vinod Kumar Chauhan, Lei Clifton, Achille Salaün, Huiqi Yvonne Lu, Kim Branson, Patrick Schwab, Gaurav Nigam, David A Clifton",
+            year: "2024",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2405.07841",
+            bibtex: "http://schwabpatrick.com/bibtex/samplesel.txt",
+            image: "",
+            notable: "",
+        },
+        {
+            title: "Development of Predictive Models to Inform a Novel Risk Categorization Framework for Antibiotic Resistance in E. coli-Causing Uncomplicated Urinary Tract Infection.",
+            authors: "Ryan K Shields, Wendy Y Cheng, Kalé Kponee-Shovein, Daniel Indacochea, Chi Gao, Fernando Kuwer, Ashish V Joshi, Fanny S Mitrani-Gold, Patrick Schwab, Diogo Ferrinho, Malena Mahendran, Lisa Pinheiro, Jimmy Royer, Madison T Preib, Jennifer Han, Richard Colgan",
+            year: "2024",
+            venue: "Clinical Infectious Diseases",
+            pdf: "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciae171/7640789",
+            bibtex: "http://schwabpatrick.com/bibtex/antibioticresistance.txt",
+            image: "",
+            notable: "",
+        },
+        {
             title: "Multi-omics Prediction from High-content Cellular Imaging with Deep Learning.",
             authors: "Rahil Mehrizi, Arash Mehrjou, Maryana Alegro, Yi Zhao, Benedetta Carbone, Carl Fishwick, Johanna Vappiani, Jing Bi, Siobhan Sanford, Hakan Keles, Marcus Bantscheff, Cuong Nguyen, Patrick Schwab",
             year: "2023",
@@ -182,16 +225,6 @@ app.controller('AppController', function($scope, posts){
             code: "https://github.com/causalbench/causalbench",
             challenge: "https://www.gsk.ai/causalbench-challenge/",
             blog: "https://www.gsk.ai/publications/causalbench-a-large-scale-benchmark-for-network-inference-from-single-cell-perturbation-data/"
-        },
-        {
-            title: "Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis.",
-            authors: "Heather Marriott, Thomas P. Spargo, Ahmad Al Khleifat, Isabella Fogh, Project MinE ALS Sequencing Consortium, Peter M Andersen, Nazli A. Başak, Johnathan Cooper-Knock, Philippe Corcia, Philippe Couratier, Mamede de Carvalho, Vivian Drory, Jonathan D. Glass, Marc Gotkine, Orla Hardiman, John E. Landers, Russell McLaughlin, Jesús S. Mora Pardina, Karen E. Morrison, Susana Pinto, Monica Povedano, Christopher E. Shaw, Pamela J. Shaw, Vincenzo Silani, Nicola Ticozzi, Philip van Damme, Leonard H. van den Berg, Patrick Vourc’h, Markus Weber, Jan H. Veldink, Richard J. Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
-            year: "2022",
-            venue: "medRxiv preprint",
-            pdf: "https://www.medrxiv.org/content/10.1101/2022.11.03.22281905",
-            bibtex: "http://schwabpatrick.com/bibtex/heather_als.txt",
-            image: "",
-            notable: ""
         },
         {
             title: "FED-CD: Federated Causal Discovery from Interventional and Observational Data.",

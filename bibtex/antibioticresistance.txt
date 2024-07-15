@@ -1,0 +1,12 @@
+@article{shields2024antibioticresistance,
+    author = {Shields, Ryan K and Cheng, Wendy Y and Kponee-Shovein, Kalé and Indacochea, Daniel and Gao, Chi and Kuwer, Fernando and Joshi, Ashish V and Mitrani-Gold, Fanny S and Schwab, Patrick and Ferrinho, Diogo and Mahendran, Malena and Pinheiro, Lisa and Royer, Jimmy and Preib, Madison T and Han, Jennifer and Colgan, Richard},
+    title = "{Development of Predictive Models to Inform a Novel Risk Categorization Framework for Antibiotic Resistance in Escherichia coli–Caused Uncomplicated Urinary Tract Infection}",
+    journal = {Clinical Infectious Diseases},
+    pages = {ciae171},
+    year = {2024},
+    month = {04},
+    issn = {1058-4838},
+    doi = {10.1093/cid/ciae171},
+    url = {https://doi.org/10.1093/cid/ciae171},
+    eprint = {https://academic.oup.com/cid/advance-article-pdf/doi/10.1093/cid/ciae171/57604593/ciae171.pdf},
+}
