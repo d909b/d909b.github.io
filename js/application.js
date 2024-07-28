@@ -534,6 +534,11 @@ app.controller('AppController', function($scope, posts){
 
     $scope.news = [
         {
+            title: "I presented our recent work at the Oxford Machine Learning (OxML) summer school in the ML x Bio & Health track in Oxford, UK.",
+            date: "2024-07-09",
+            link: "https://schwabpatrick.com/presentations/schwab-aiassistants-oxml-9Jul2024.pdf"
+        },
+        {
             title: "We co-organized the Machine Learning for Drug Discovery (MLDD) 2024 symposium in Vienna, Austria.",
             date: "2024-05-11",
             link: "https://schwabpatrick.com/2024/05/11/iclr2024.html"
@@ -558,12 +563,12 @@ app.controller('AppController', function($scope, posts){
             date: "2022-01-22",
             link: "https://arxiv.org/abs/2110.11875"
         },
+        /*
         {
             title: "We released a new preprint on conditionally generating realistic synthetic electronic health record data.",
             date: "2022-01-21",
             link: "https://arxiv.org/abs/2201.08186"
         },
-        /*
         {
             title: "Announcing the 'Machine Learning for Drug Discovery' workshop at ICLR-22. Featuring a stellar lineup of speakers, a ML for Drug Discovery challenge and a call for community contributions.",
             date: "2022-01-17",
