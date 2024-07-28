@@ -1,0 +1,6 @@
+@article{schwab2024hzdementia,
+    title={{Recombinant zoster vaccine and reduced risk of dementia: matched-cohort study using large-scale electronic health records and machine learning methodology}},
+    author={Patrick Schwab, Robyn Widenmaier, Halima Tahrat, Maria Littmann, Bruno Anspach, Carolyn Buser-Doepner, Andreas Georgiou, Max Horn, Sanjay Kumar, Vitaly Polisky, Aleksei Triastcyn, Cornelia M Van Duijn, Pascal Geldsetzer},
+    journal={Alzheimer's Association International Conference},
+    year={2024}
+}
