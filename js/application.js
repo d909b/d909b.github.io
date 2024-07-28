@@ -124,7 +124,16 @@ app.controller('AppController', function($scope, posts){
         $scope.posts = posts;
     });
     $scope.publications = [
-        // Global healthcare fairness: We should be sharing more, not less, data
+        {
+            title: "Recombinant zoster vaccine and reduced risk of dementia: matched-cohort study using large-scale electronic health records and machine learning methodology.",
+            authors: "Patrick Schwab, Robyn Widenmaier, Halima Tahrat, Maria Littmann, Bruno Anspach, Carolyn Buser-Doepner, Andreas Georgiou, Max Horn, Sanjay Kumar, Vitaly Polisky, Aleksei Triastcyn, Cornelia M Van Duijn, Pascal Geldsetzer",
+            year: "2024",
+            venue: "Alzheimer's Association International Conference",
+            pdf: "https://alz.confex.com/alz/2024/meetingapp.cgi/Paper/88064",
+            bibtex: "http://schwabpatrick.com/bibtex/hzdementia.txt",
+            image: "",
+            notable: "Featured Research",
+        },
         {
             title: "Deriving Causal Order from Single-Variable Interventions: Guarantees & Algorithm.",
             authors: "Mathieu Chevalley, Patrick Schwab, Arash Mehrjou",
@@ -197,7 +206,7 @@ app.controller('AppController', function($scope, posts){
             title: "Unsupervised machine learning identifies distinct molecular and phenotypic ALS subtypes in post-mortem motor cortex and blood expression data.",
             authors: "Heather Marriott, Renata kabiljo, Guy P Hunt, Ahmad Al Khleifat, Ashley R Jones, Claire Troakes, Abigail Pfaff, John Quinn, Sulev Koks, Richard Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
             year: "2023",
-            venue: "medRxiv preprint",
+            venue: "Acta Neuropathologica Communications",
             pdf: "https://www.medrxiv.org/content/10.1101/2023.04.21.23288942v1",
             bibtex: "http://schwabpatrick.com/bibtex/heather_als2.txt",
             image: "",
