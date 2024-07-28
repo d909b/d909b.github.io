@@ -1,11 +1,9 @@
-@article {Marriott2023alssubtypes,
+@article {marriott2023alssubtypes,
 	author = {Heather Marriott and Renata Kabiljo and Guy P Hunt and Ahmad Al Khleifat and Ashley Jones and Claire Troakes and Project MinE ALS Sequencing Consortium and TargetALS Sequencing Consortium and Abigail L Pfaff and John P Quinn and Sulev Koks and Richard J Dobson and Patrick Schwab and Ammar Al-Chalabi and Alfredo Iacoangeli},
-	title = {Unsupervised machine learning identifies distinct molecular and phenotypic ALS subtypes in post-mortem motor cortex and blood expression data},
-	elocation-id = {2023.04.21.23288942},
-	year = {2023},
-	doi = {10.1101/2023.04.21.23288942},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	URL = {https://www.medrxiv.org/content/early/2023/04/25/2023.04.21.23288942},
-	eprint = {https://www.medrxiv.org/content/early/2023/04/25/2023.04.21.23288942.full.pdf},
-	journal = {medRxiv}
+	title = {Unsupervised machine learning identifies distinct molecular and phenotypic ALS subtypes in post-mortem motor cortex and blood expression data},journal={Acta neuropathologica communications},
+    volume={11},
+    number={1},
+    pages={208},
+    year={2023},
+    publisher={Springer}
 }

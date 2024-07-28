@@ -206,7 +206,7 @@ app.controller('AppController', function($scope, posts){
             title: "Unsupervised machine learning identifies distinct molecular and phenotypic ALS subtypes in post-mortem motor cortex and blood expression data.",
             authors: "Heather Marriott, Renata kabiljo, Guy P Hunt, Ahmad Al Khleifat, Ashley R Jones, Claire Troakes, Abigail Pfaff, John Quinn, Sulev Koks, Richard Dobson, Patrick Schwab, Ammar Al-Chalabi, Alfredo Iacoangeli",
             year: "2023",
-            venue: "medRxiv preprint",
+            venue: "Acta Neuropathologica Communications",
             pdf: "https://www.medrxiv.org/content/10.1101/2023.04.21.23288942v1",
             bibtex: "http://schwabpatrick.com/bibtex/heather_als2.txt",
             image: "",
