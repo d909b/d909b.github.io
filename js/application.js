@@ -924,6 +924,18 @@ app.controller('AppController', function($scope, posts){
 
     $scope.media_coverage = [
         {
+            title: "Shingles vaccines may reduce dementia risk, two large new studies suggest",
+            venue: "CNN",
+            date: "Jul, 2024",
+            link: "https://www.cnn.com/2024/07/30/health/shingles-vaccines-dementia-studies/index.html"
+        },
+        {
+            title: "Shingles vaccine linked with lower dementia risk, study shows",
+            venue: "The Washington Post",
+            date: "Jul, 2024",
+            link: "https://www.washingtonpost.com/wellness/2024/07/30/shingles-vaccine-lower-dementia-risk/"
+        },
+        {
             title: "GSK researchers use ML to identify hepatitis B subgroups",
             venue: "STAT News",
             date: "Jul, 2023",
