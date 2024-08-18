@@ -924,6 +924,12 @@ app.controller('AppController', function($scope, posts){
 
     $scope.media_coverage = [
         {
+            title: "AI discovers new drugs that could save millions of lives",
+            venue: "The Sunday Times",
+            date: "Aug, 2024",
+            link: "https://www.thetimes.com/business-money/companies/article/ai-discovers-new-drugs-that-could-save-millions-of-lives-and-big-pharmas-time-jtmz7tmfv"
+        },
+        {
             title: "Shingles vaccines may reduce dementia risk, two large new studies suggest",
             venue: "CNN",
             date: "Jul, 2024",
