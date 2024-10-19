@@ -1,0 +1,7 @@
+@misc{chevalley2024diffintersort,
+      title={{Efficient Differentiable Discovery of Causal Order}},
+      author={Mathieu Chevalley, Arash Mehrjou, Patrick Schwab},
+      year={2024},
+      eprint={2410.08787},
+      archivePrefix={arXiv}
+}

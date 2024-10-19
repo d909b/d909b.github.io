@@ -125,6 +125,24 @@ app.controller('AppController', function($scope, posts){
     });
     $scope.publications = [
         {
+            title: "Efficient Differentiable Discovery of Causal Order.",
+            authors: "Mathieu Chevalley, Arash Mehrjou, Patrick Schwab",
+            year: "2024",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2410.08787",
+            bibtex: "http://schwabpatrick.com/bibtex/diffintersort.txt",
+            image: "",
+        },
+        {
+            title: "Knowledge abstraction and filtering based federated learning over heterogeneous data views in healthcare.",
+            authors: "Anshul Thakur, Soheila Molaei, Pafue Christy Nganjimi, Andrew Soltan, Patrick Schwab, Kim Branson, David A Clifton",
+            year: "2024",
+            venue: "npj Digital Medicine",
+            pdf: "https://www.nature.com/articles/s41746-024-01272-9",
+            bibtex: "http://schwabpatrick.com/bibtex/diffintersort.txt",
+            image: "",
+        },
+        {
             title: "Recombinant zoster vaccine and reduced risk of dementia: matched-cohort study using large-scale electronic health records and machine learning methodology.",
             authors: "Patrick Schwab, Robyn Widenmaier, Halima Tahrat, Maria Littmann, Bruno Anspach, Carolyn Buser-Doepner, Andreas Georgiou, Max Horn, Sanjay Kumar, Vitaly Polisky, Aleksei Triastcyn, Cornelia M Van Duijn, Pascal Geldsetzer",
             year: "2024",
