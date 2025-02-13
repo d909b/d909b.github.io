@@ -942,6 +942,12 @@ app.controller('AppController', function($scope, posts){
 
     $scope.media_coverage = [
         {
+            title: "Pharma Companies Turn to AI to Speed Up Drug Development, But Hit Hurdles",
+            venue: "The Wall Street Journal",
+            date: "Feb, 2025",
+            link: "https://www.wsj.com/tech/ai/pharma-companies-turn-to-ai-to-speed-up-drug-development-but-hit-hurdles-9e870d8d"
+        },
+        {
             title: "AI discovers new drugs that could save millions of lives",
             venue: "The Sunday Times",
             date: "Aug, 2024",
