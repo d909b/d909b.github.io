@@ -1,8 +1,6 @@
-@misc{chevalley2024intersort,
-      title={{Deriving Causal Order from Single-Variable Interventions: Guarantees & Algorithm}},
-      author={Mathieu Chevalley, Patrick Schwab, Arash Mehrjou},
-      year={2024},
-      eprint={2405.18314},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.QM}
+@inproceedings{chevalley2025intersort,
+  title={{CXPlain: Causal Explanations for Model Interpretation under Uncertainty}},
+  author={Mathieu Chevalley, Patrick Schwab, Arash Mehrjou},
+  booktitle={{International Conference on Learning Representations (ICLR)}},
+  year={2025}
 }

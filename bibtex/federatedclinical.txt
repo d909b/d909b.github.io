@@ -1,0 +1,15 @@
+@InProceedings{pmlr-v258-thakur25a,
+  title = 	 {Optimising Clinical Federated Learning through Mode Connectivity-based Model Aggregation},
+  author =       {Thakur, Anshul and Molaei, Soheila and Schwab, Patrick and Belgrave, Danielle and Branson, Kim and Clifton, David A.},
+  booktitle = 	 {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {163--171},
+  year = 	 {2025},
+  editor = 	 {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  volume = 	 {258},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {03--05 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v258/main/assets/thakur25a/thakur25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v258/thakur25a.html},
+  abstract = 	 {Federated Learning (FL) involves a server aggregating local models from clients to compute a global model. However, this process can struggle to position the global model in low-loss regions of the parameter space for all clients, resulting in subpar convergence and inequitable performance across clients. This issue is particularly pronounced in non-IID settings, common in clinical contexts, where variations in data distribution, class imbalance, and training sample sizes result in client heterogeneity. To address this issue, we propose a mode connectivity-based FL framework that ensures the global model resides within the overlapping low-loss regions of all clients in the parameter space. This framework models the low-loss regions as non-linear mode connections between the current global and local models, and optimises to identify an intersection among these mode connections to define the new global model. This approach enhances training stability and convergence, yielding better and more equitable performance compared to standard FL frameworks like federated averaging. Empirical evaluations across multiple healthcare datasets demonstrate the benefits of the proposed framework.}
+}

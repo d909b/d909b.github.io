@@ -1,0 +1,7 @@
+@misc{gu2025multimodalsensing,
+      title={{Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals}},
+      author={Xiao Gu, Wei Tang, Jinpei Han, Veer Sangha, Fenglin Liu, Shreyank N Gowda, Antonio H Ribeiro, Patrick Schwab, Kim Branson, Lei Clifton, Antonio Luiz P Ribeiro, Zhangdaihong Liu, David A Clifton},
+      year={2025},
+      eprint={2507.01045},
+      archivePrefix={arXiv}
+}

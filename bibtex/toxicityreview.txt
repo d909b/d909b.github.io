@@ -1,0 +1,19 @@
+@article{doi:10.1021/acs.chemrestox.5c00033,
+author = {Seal, Srijit and Mahale, Manas and García-Ortegón, Miguel and Joshi, Chaitanya K. and Hosseini-Gerami, Layla and Beatson, Alex and Greenig, Matthew and Shekhar, Mrinal and Patra, Arijit and Weis, Caroline and Mehrjou, Arash and Badr{\'e}, Adrien and Paisley, Brianna and Lowe, Rhiannon and Singh, Shantanu and Shah, Falgun and Johannesson, Bjarki and Williams, Dominic and Rouquie, David and Clevert, Djork-Arn{\'e} and Schwab, Patrick and Richmond, Nicola and Nicolaou, Christos A. and Gonzalez, Raymond J. and Naven, Russell and Schramm, Carolin and Vidler, Lewis R and Mansouri, Kamel and Walters, W. Patrick and Wilk, Deidre Dalmas and Spjuth, Ola and Carpenter, Anne E. and Bender, Andreas},
+title = {Machine Learning for Toxicity Prediction Using Chemical Structures: Pillars for Success in the Real World},
+journal = {Chemical Research in Toxicology},
+volume = {38},
+number = {5},
+pages = {759-807},
+year = {2025},
+doi = {10.1021/acs.chemrestox.5c00033},
+    note ={PMID: 40314361},
+URL = {
+        https://doi.org/10.1021/acs.chemrestox.5c00033
+},
+eprint = {
+        https://doi.org/10.1021/acs.chemrestox.5c00033
+}
+}
+
+

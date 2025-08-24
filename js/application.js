@@ -125,6 +125,52 @@ app.controller('AppController', function($scope, posts){
     });
     $scope.publications = [
         {
+            title: "In silico biological discovery with large perturbation models.",
+            authors: "Djordje Miladinovic, Tobias Höppe, Mathieu Chevalley, Andreas Georgiou, Lachlan Stuart, Arash Mehrjou, Marcus Bantscheff, Bernhard Schölkopf, Patrick Schwab",
+            year: "2025",
+            venue: "Nature Computational Science (to appear)",
+            pdf: "https://arxiv.org/abs/2503.23535",
+            bibtex: "http://schwabpatrick.com/bibtex/lpm.txt",
+            code: "https://github.com/perturblib/perturblib",
+            image: "",
+        },
+        {
+            title: "Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals.",
+            authors: "Xiao Gu, Wei Tang, Jinpei Han, Veer Sangha, Fenglin Liu, Shreyank N Gowda, Antonio H Ribeiro, Patrick Schwab, Kim Branson, Lei Clifton, Antonio Luiz P Ribeiro, Zhangdaihong Liu, David A Clifton",
+            year: "2025",
+            venue: "arXiv preprint",
+            pdf: "https://arxiv.org/abs/2507.01045",
+            bibtex: "http://schwabpatrick.com/bibtex/multimodalsensing.txt",
+            image: "",
+        },
+        {
+            title: "Machine Learning for Toxicity Prediction Using Chemical Structures: Pillars for Success in the Real World.",
+            authors: "Srijit Seal, Manas Mahale, Miguel García-Ortegón, Chaitanya K Joshi, Layla Hosseini-Gerami, Alex Beatson, Matthew Greenig, Mrinal Shekhar, Arijit Patra, Caroline Weis, Arash Mehrjou, Adrien Badré, Brianna Paisley, Rhiannon Lowe, Shantanu Singh, Falgun Shah, Bjarki Johannesson, Dominic Williams, David Rouquie, Djork-Arné Clevert, Patrick Schwab, Nicola Richmond, Christos A Nicolaou, Raymond J Gonzalez, Russell Naven, Carolin Schramm, Lewis R Vidler, Kamel Mansouri, W Patrick Walters, Deidre Dalmas Wilk, Ola Spjuth, Anne E Carpenter, Andreas Bender",
+            year: "2025",
+            venue: "Chemical Research in Toxicology",
+            pdf: "https://pubs.acs.org/doi/full/10.1021/acs.chemrestox.5c00033",
+            bibtex: "http://schwabpatrick.com/bibtex/toxicityreview.txt",
+            image: "",
+        },
+        {
+            title: "Optimising Clinical Federated Learning through Mode Connectivity-based Model Aggregation.",
+            authors: "Anshul Thakur, Soheila Molaei, Patrick Schwab, Danielle Belgrave, Kim Branson, David A Clifton",
+            year: "2025",
+            venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+            pdf: "https://proceedings.mlr.press/v258/thakur25a.html",
+            bibtex: "http://schwabpatrick.com/bibtex/federatedclinical.txt",
+            image: "",
+        },
+        {
+            title: "Information Transfer Across Clinical Tasks via Adaptive Parameter Optimisation.",
+            authors: "Anshul Thakur, Elena Gal, Soheila Molaei, Xiao Gu, Patrick Schwab, Danielle Belgrave, Kim Branson, David A Clifton",
+            year: "2025",
+            venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+            pdf: "https://raw.githubusercontent.com/mlresearch/v258/main/assets/thakur25b/thakur25b.pdf",
+            bibtex: "http://schwabpatrick.com/bibtex/federatedclinical.txt",
+            image: "",
+        },
+        {
             title: "Efficient Differentiable Discovery of Causal Order.",
             authors: "Mathieu Chevalley, Arash Mehrjou, Patrick Schwab",
             year: "2024",
@@ -155,8 +201,8 @@ app.controller('AppController', function($scope, posts){
         {
             title: "Deriving Causal Order from Single-Variable Interventions: Guarantees & Algorithm.",
             authors: "Mathieu Chevalley, Patrick Schwab, Arash Mehrjou",
-            year: "2024",
-            venue: "arXiv preprint",
+            year: "2025",
+            venue: "International Conference on Learning Representations (ICLR)",
             pdf: "https://arxiv.org/abs/2405.18314",
             bibtex: "http://schwabpatrick.com/bibtex/intersort.txt",
             image: "",
@@ -164,6 +210,19 @@ app.controller('AppController', function($scope, posts){
             twitter: "https://x.com/schwabpa/status/1797961443578384883",
             code: "https://github.com/MathieuChevalley/Intersort",
             blog: "https://gsk.ai/blogs/intersort-deriving-causal-order-in-single-variable-interventional-data/"
+        },
+        {
+            title: "A Large-scale Benchmark for Network Inference from Single-cell Perturbation Data.",
+            authors: "Mathieu Chevalley, Yusuf Roohani, Arash Mehrjou, Jure Leskovec, Patrick Schwab",
+            year: "2025",
+            venue: "Communications Biology",
+            pdf: "https://arxiv.org/abs/2210.17283",
+            bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
+            image: "",
+            notable: "",
+            code: "https://github.com/causalbench/causalbench",
+            challenge: "https://www.gsk.ai/causalbench-challenge/",
+            blog: "https://www.gsk.ai/publications/causalbench-a-large-scale-benchmark-for-network-inference-from-single-cell-perturbation-data/"
         },
         {
             title: "Mutations in the tail domain of the neurofilament heavy chain gene increase the risk of amyotrophic lateral sclerosis.",
@@ -239,19 +298,6 @@ app.controller('AppController', function($scope, posts){
             bibtex: "http://schwabpatrick.com/bibtex/skiexposure.txt",
             image: "",
             notable: "",
-        },
-        {
-            title: "CausalBench: A Large-scale Benchmark for Network Inference from Single-cell Perturbation Data.",
-            authors: "Mathieu Chevalley, Yusuf Roohani, Arash Mehrjou, Jure Leskovec, Patrick Schwab",
-            year: "2022",
-            venue: "arXiv preprint",
-            pdf: "https://arxiv.org/abs/2210.17283",
-            bibtex: "http://schwabpatrick.com/bibtex/causalbench.txt",
-            image: "",
-            notable: "",
-            code: "https://github.com/causalbench/causalbench",
-            challenge: "https://www.gsk.ai/causalbench-challenge/",
-            blog: "https://www.gsk.ai/publications/causalbench-a-large-scale-benchmark-for-network-inference-from-single-cell-perturbation-data/"
         },
         {
             title: "FED-CD: Federated Causal Discovery from Interventional and Observational Data.",

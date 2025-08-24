@@ -1,0 +1,6 @@
+@article{miladinovic2025lpm,
+  title={{In-silico biological discovery with large perturbation models}},
+  author={Djordje Miladinovic, Tobias Höppe, Mathieu Chevalley, Andreas Georgiou, Lachlan Stuart, Arash Mehrjou, Marcus Bantscheff, Bernhard Schölkopf, Patrick Schwab},
+  journal={Nature Computational Science},
+  year={2025},
+}
